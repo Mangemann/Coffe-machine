@@ -1,0 +1,142 @@
+# CoffeeMachine
+
+### Properties
+
+myMachine(object)
+- Create a nobject of a coffe machine from the class 'CoffeMachine'
+
+pluggedInWater(boolean)
+Initial value: false
+-describes if water is plugged into the machine
+
+pluggedInPower(boolean)
+Initial value: false
+-describes if the machine is connected to an outlet/electricity
+
+ammountOfCoffee(number)
+Initial value: 0
+-describes how much grounded coffee is avaliable in the machine (in grams)
+
+ammountOfChocolate(number)
+Initial value: 0
+-describes how much chocolate powder is avaliable in the machine (in grams)
+
+ammountOfMilk(number)
+Initial value: 
+-describes how much milk is avaliable in the machine (in milliliters)
+
+ammountOfSugar(number)
+Initial value: 
+-describes the amount of sugar avaliable in the machine (in grams)
+
+latteButtonPressed(boolean)
+Initial value: false
+- describes if the 'Latte' button is pressed or not 
+
+kaffeButtonPressed(boolean)
+Initial value: true
+- describes if the 'Kaffe' button is pressed or not 
+
+teButtonPressed(boolean)
+Initial value: false
+- describes if the 'Te' button is pressed or not 
+
+chokladButtonPressed(boolean)
+Initial value: false
+- describes if the 'Choklad' button is pressed or not 
+
+sockerButtonPressed(boolean)
+Initial value: false
+- describes if the 'Socker' button is pressed or not 
+
+mjolkButtonPressed(boolean)
+Initial value: false
+- describes if the 'Mjölk' button is pressed or not 
+
+kannaButtonPressed(boolean)
+Initial value: false
+- describes if the 'Kanna' button is pressed or not
+
+amountOfMoneyPaid(number)
+- describes how much money the user has payed so far
+
+pricePerCup(number)
+Initial value: 10
+-describes the cost of a cup of the beverages
+
+amountOfCups(number)
+Initial value: 0
+-describes how many cups are left in the machine
+
+
+#Methods
+
+checkIfPluggedIn() //onödig????
+- checks to see if the machine is plugged in to an outlet
+- returns nothing, but changes property pluggedInPower to 'true' if the machine is plugged in
+
+checkIfWaterIsPluggedIn()
+- called when the user presses the 'start' button
+- checks to see if the machine is plugged in to a water source
+- returns nothing, but changes property pluggedInWater to 'true' if the machine is plugged in to a water source
+
+coffeeSupplyLeft()
+-called when the user presses the 'start' button and has selected a coffee drink
+-changes the property ammountOfCoffee to the amount of coffee left in the machine
+-returns true if enough coffee for the beverage was avaliable
+
+milkSupplyLeft()
+-called when the user presses the 'start' button and has selected a drink with milk in it (milk option or Latte)
+-changes the property ammountOfMilk to the amount of milk left in the machine
+-returns true if enough milk for the beverage was avaliable
+
+sugarSupplyLeft()
+-called when the user presses the 'start' button and has selected a drink with sugar in it (sugar option)
+-changes the property ammountOfSugar to the amount of sugar left in the machine
+-returns true if enough sugar for the beverage was avaliable
+
+cupSupplyLeft()
+-called when the user presses the 'start' button
+-if the property amountOfCups is equal to 0, return false
+-else return true
+
+start()
+-called when the user presses the 'start' button
+-calls the coffeeSupplyLeft(), milkSupplyLeft(), amountOfCups() and sugarSupplyLeft() methods depending on the desired beverage chosen
+-if the corresponding methods returns true, and the value of the amountOfMoneyPaid property is atleast the value of pricePerCup then the method brewBeverage() and returnChange() is called
+-else, it will not brew and user can try again until the 'cancel' button is pressed
+-if the corresponding methods does not return true, display on the display screen a message about what went wrong accordingly:
+-if coffeeSupplyLeft returns false, display 'not enough coffe in the machine, please refill' on the screen
+-if milkSupplyLeft returns false, display 'not enough milk in the machine, please refill' on the screen
+-if sugarSupplyLeft returns false, display 'not enough sugar in the machine, please refill' on the screen
+-if cupSupplyLeft returns false, display 'no cups avaliable in the machine, please refill' on the screen
+
+cancel()
+-called when the user presses the 'cancel' button
+-if the brewBeverage() method is ongoing, stop it and return to default mode for the machine but with user selected items still in place
+-if the brewBeverage() method is not ongoing, call the returnChange() method
+-last, change every property back to their initial values
+
+brewBeverage()
+-calls the methods addSugar(), addMilk(), addWater() and addCoffee() depending on the users choice of beverage
+-last, pour the content of the mixed beverage into the cup
+
+returnChange()
+- compares amountOfMoneyPaid to pricePerCup
+- if amountOfMoneyPaid is greater than pricePerCup, then the difference will be payed back in corresponding change through the return socket on the machine
+- if amountOfMoneyPaid is equal to pricePerCup, then no money gets payed back
+
+
+payByCard()
+-called when the user inputs a card into the cardsocket of the machine
+-if the transaction was successful, adds funds to amountOfMoneyPaid corresponding to the price of the beverage
+-returns the new amountOfMoneyPaid property if the transaction was successful
+
+payByCash()
+-called when the user inserts coins into the coinsocket of the machine
+-reads the value of the coin inserted and saves it in a local variable
+-adds funds to the amountOfMoneyPaid property equal to the value of the coin inserted
+
+
+
+
