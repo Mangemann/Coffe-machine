@@ -1,4 +1,4 @@
-Feature:
+Feature: 
 As a coffee buyer
 I want to be able to recieve the money i inserted when i press the cancel button and the machine is not brewing
 Because i changed my mind
@@ -25,8 +25,8 @@ Examples:
     |    10 |     5 |     5 |     2 |     1 |     0 |     0 |     13 |
     |     5 |     2 |     0 |     0 |     0 |     0 |     0 |      0 |
 
-Scenario: the user inserts something that is not a coin into the coinsocket
-    When I insert something that is not a coin into the coinsocket
+Scenario: the user inserts something that is not a valid coin into the coinsocket
+    When I insert something that is not a valid coin into the coinsocket
     Then I should get an error message
 
 Scenario Outline: The user puts in a coin, and then pays by card
