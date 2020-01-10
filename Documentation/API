@@ -57,19 +57,19 @@ chocolatePerCup(number)
 Constant value: 10
 -describes the amount of chocolate powder per cup(in grams)
 
-ammountOfCoffee(number)
+amountOfCoffee(number)
 Initial value: 0
 -describes how much grounded coffee is avaliable in the machine (in grams)
 
-ammountOfChocolate(number)
+amountOfChocolate(number)
 Initial value: 0
 -describes how much chocolate powder is avaliable in the machine (in grams)
 
-ammountOfMilk(number)
+amountOfMilk(number)
 Initial value: 0
 -describes how much milk is avaliable in the machine (in milliliters)
 
-ammountOfSugar(number)
+amountOfSugar(number)
 Initial value: 0
 -describes the amount of sugar avaliable in the machine (in grams)
 
@@ -130,16 +130,16 @@ coffeeSupplyLeft(amount)
 
 milkSupplyLeft(amount)
 -called when the user presses the 'start' button and the value of mjolkButtonPressed or latteButtonPressed is true
--changes the property ammountOfMilk to the amount of milk left in the machine
+-changes the property amountOfMilk to the amount of milk left in the machine
 -returns true if enough milk for the beverage was avaliable
 
 sugarSupplyLeft(amount)
 -called when the user presses the 'start' button and has selected a drink with sugar in it (sugar option)
--changes the property ammountOfSugar to the amount of sugar left in the machine
+-changes the property amountOfSugar to the amount of sugar left in the machine
 -returns true if enough sugar for the beverage was avaliable
 
 chocolateSupplyLeft(amount)
--changes the property ammountOfChocolate to the amount of chocolate left in the machine
+-changes the property amountOfChocolate to the amount of chocolate left in the machine
 -returns true if enough chocolate for the beverage was avaliable
 
 cupSupplyLeft()
@@ -164,7 +164,7 @@ start()
 cancel()
 -called when the user presses the 'cancel' button
 -if the brewBeverage() method is ongoing, stop it and return to default mode for the machine but with user selected items still in place
--if the brewBeverage() method is not ongoing, call the returnChange() method
+-if the brewBeverage() method is not ongoing, call the returnChange(amountOfMoneyPaid) method
 -last, change every property back to their initial values
 
 brewBeverage()
@@ -182,22 +182,22 @@ brewBeverage()
 brewCoffeeMilkSugar()
 -brews a coffee beverage with milk and sugar
 -heat <sizeOfCup> of water, filter through <coffeePerCup> grams ground coffee, add <milkPerCup> ml of heated milk and <sugarPerCup> grams of sugar
--last, subtract <coffeePerCup> from <ammountOfCoffee>, <milkPerCup> from <ammountOfMilk>, and <sugarPerCup> from <ammountOfSugar>
+-last, subtract <coffeePerCup> from <amountOfCoffee>, <milkPerCup> from <amountOfMilk>, and <sugarPerCup> from <amountOfSugar>
 
 brewCoffeMilk()
 -brews a coffee beverage with milk
 -heat <sizeOfCup> of water, filter through <coffeePerCup> grams ground coffee then add <milkPerCup> ml of heated milk
--last, subtract <coffeePerCup> from <ammountOfCoffee>, and <milkPerCup> from <ammountOfMilk> 
+-last, subtract <coffeePerCup> from <amountOfCoffee>, and <milkPerCup> from <amountOfMilk> 
 
 brewCoffeeSugar
 -brews a coffee beverage with sugar
 -heat <sizeOfCup> of water, filter through <coffeePerCup> grams ground coffee and add <sugarPerCup> grams of sugar
--last, subtract <coffeePerCup> from <ammountOfCoffee>, and <sugarPerCup> from <ammountOfSugar>
+-last, subtract <coffeePerCup> from <amountOfCoffee>, and <sugarPerCup> from <amountOfSugar>
 
 brewCoffee()
 -brews a coffee beverage
 -heat <sizeOfCup> of water and filter through <coffeePerCup> grams ground coffee
--last, subtract <coffeePerCup> from <ammountOfCoffee>
+-last, subtract <coffeePerCup> from <amountOfCoffee>
 
 brewTe()
 -brews a beverage of tea
@@ -206,33 +206,37 @@ brewTe()
 brewChocolate()
 -brews a beverage of hot chocolate
 -heat up <sizeOfCup> of water and add <chocolatePerCup> of chocolate powder
--last, subtract <chocolatePerCup> from <ammountOfChocolate>
+-last, subtract <chocolatePerCup> from <amountOfChocolate>
 
 brewLatte()
 -brews a beverage of Latte
 -heat up <waterPerLatte> water and filter through <coffeePerLatteCup>, then add <milkPerLatteCup> heated milk
--last, subtract <coffeePerLatteCup> from <ammountOfCoffee>, and <milkPerLatteCup> from <ammountOfMilk> 
+-last, subtract <coffeePerLatteCup> from <amountOfCoffee>, and <milkPerLatteCup> from <amountOfMilk> 
 
 brewKanna()
 -brews a kanna of coffee
 -heat up <waterPerKanna> water and filter through <coffeePerKanna> grams of ground coffee
--last, subtract <coffeePerKanna> from <ammountOfCoffee>
+-last, subtract <coffeePerKanna> from <amountOfCoffee>
 
-returnChange()
+returnChange(amountOfMoneyPaid)
 - compares amountOfMoneyPaid to pricePerCup
 - if amountOfMoneyPaid is greater than pricePerCup, then the difference will be payed back in corresponding change through the return socket on the machine
 - if amountOfMoneyPaid is equal to pricePerCup, then no money gets payed back
+- if amountOfMoneyPaid is less than pricePerCup, then pay back money equal to the value of amountOfMoneyPaid
 
+checkInsertedCoinObject()
+-called when the user inserts something into the coinsocket of the machine
+-if the object inserted is a valid Swedish coin, call method payByCash()
+-if the object inserted is not a valid Swedish coin, display 'Myntet kunde inte läsas, välj ett annat mynt eller försök igen' on the display screen
 
 payByCard()
 -called when the user inputs a card into the cardsocket of the machine
 -if the transaction was successful, adds funds to amountOfMoneyPaid corresponding to the price of the beverage
 -returns the new amountOfMoneyPaid property if the transaction was successful
 
-payByCash()
--called when the user inserts coins into the coinsocket of the machine
--reads the value of the coin inserted and saves it in a local variable
--adds funds to the amountOfMoneyPaid property equal to the value of the coin inserted
+payByCash(coin)
+-reads the value of the coin inserted into the machine and saves it in a local variable
+-adds the value of <coin> to the amountOfMoneyPaid property 
 
 selectSugar()
 -called when the user presses the 'sugar' button
@@ -271,19 +275,25 @@ selectChocolate()
 
 refillSugar()
 -called when the lid to the sugar storage unit is closed
--weighs the amount of sugar in the sugar compartment and sets the value of ammountOfSugar to that weight
+-weighs the amount of sugar in the sugar compartment and sets the value of amountOfSugar to that weight
 
 refillCoffee()
 -called when the lid to the coffee storage unit is closed
--weighs the amount of coffee in the coffee compartment and sets the value of ammountOfCoffee to that weight
+-weighs the amount of coffee in the coffee compartment and sets the value of amountOfCoffee to that weight
 
 refillMilk()
 -called when the lid to the milk storage unit is closed
--weighs the amount of milk in the milk compartment and sets the value of ammountOfMilk to that weight divided by 1.03
+-weighs the amount of milk in the milk compartment and sets the value of amountOfMilk to that weight divided by 1.03
 
 refillChocolate()
 -called when the lid to the sugar storage unit is closed
--weighs the amount of chocolate in the chocolate compartment and sets the value of ammountOfChocolate to that weight
+-weighs the amount of chocolate in the chocolate compartment and sets the value of amountOfChocolate to that weight
+
+refillCups()
+-called when the lid to the cup storage unit is closed
+-weighs the mass of the cups, divides that with 2.4, then sets the value of amountOfCups to the result
+
+https://www.coposplastico.com/Cups-Desechables-200-ml-PP
 
 
 
