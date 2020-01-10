@@ -1,5 +1,10 @@
 class MyCoffeeMachine{
+
+    constructor() {
+        this
+    }
     
+
 }
 
 

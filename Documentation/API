@@ -66,11 +66,11 @@ Initial value: 0
 -describes how much chocolate powder is avaliable in the machine (in grams)
 
 ammountOfMilk(number)
-Initial value: 
+Initial value: 0
 -describes how much milk is avaliable in the machine (in milliliters)
 
 ammountOfSugar(number)
-Initial value: 
+Initial value: 0
 -describes the amount of sugar avaliable in the machine (in grams)
 
 latteButtonPressed(boolean)
@@ -182,18 +182,22 @@ brewBeverage()
 brewCoffeeMilkSugar()
 -brews a coffee beverage with milk and sugar
 -heat <sizeOfCup> of water, filter through <coffeePerCup> grams ground coffee, add <milkPerCup> ml of heated milk and <sugarPerCup> grams of sugar
+-last, subtract <coffeePerCup> from <ammountOfCoffee>, <milkPerCup> from <ammountOfMilk>, and <sugarPerCup> from <ammountOfSugar>
 
 brewCoffeMilk()
 -brews a coffee beverage with milk
--heat <sizeOfCup> of water, filter through <coffeePerCup> grams ground coffee then add <milkPerCup> ml of heated milk 
+-heat <sizeOfCup> of water, filter through <coffeePerCup> grams ground coffee then add <milkPerCup> ml of heated milk
+-last, subtract <coffeePerCup> from <ammountOfCoffee>, and <milkPerCup> from <ammountOfMilk> 
 
 brewCoffeeSugar
 -brews a coffee beverage with sugar
 -heat <sizeOfCup> of water, filter through <coffeePerCup> grams ground coffee and add <sugarPerCup> grams of sugar
+-last, subtract <coffeePerCup> from <ammountOfCoffee>, and <sugarPerCup> from <ammountOfSugar>
 
 brewCoffee()
 -brews a coffee beverage
 -heat <sizeOfCup> of water and filter through <coffeePerCup> grams ground coffee
+-last, subtract <coffeePerCup> from <ammountOfCoffee>
 
 brewTe()
 -brews a beverage of tea
@@ -202,14 +206,17 @@ brewTe()
 brewChocolate()
 -brews a beverage of hot chocolate
 -heat up <sizeOfCup> of water and add <chocolatePerCup> of chocolate powder
+-last, subtract <chocolatePerCup> from <ammountOfChocolate>
 
 brewLatte()
 -brews a beverage of Latte
 -heat up <waterPerLatte> water and add <milkPerLatteCup> heated milk
+-last, subtract <coffeePerLatteCup> from <ammountOfCoffee>, and <milkPerLatteCup> from <ammountOfMilk> 
 
 brewKanna()
 -brews a kanna of coffee
 -heat up <waterPerKanna> water and filter through <coffeePerKanna> grams of ground coffee
+-last, subtract <coffeePerKanna> from <ammountOfCoffee>
 
 returnChange()
 - compares amountOfMoneyPaid to pricePerCup
@@ -263,12 +270,20 @@ selectChocolate()
 -last, light up the 'choklad' button and turn of the lights of the 'latte', 'kaffe', 'mjölk', 'socker', 'kanna' and 'te' buttons
 
 refillSugar()
+-called when the lid to the sugar storage unit is closed
+-weighs the amount of sugar in the sugar compartment and sets the value of ammountOfSugar to that weight
 
 refillCoffee()
+-called when the lid to the coffee storage unit is closed
+-weighs the amount of coffee in the coffee compartment and sets the value of ammountOfCoffee to that weight
 
 refillMilk()
+-called when the lid to the milk storage unit is closed
+-weighs the amount of milk in the milk compartment and sets the value of ammountOfMilk to that weight divided by 1.03
 
 refillChocolate()
+-called when the lid to the sugar storage unit is closed
+-weighs the amount of chocolate in the chocolate compartment and sets the value of ammountOfChocolate to that weight
 
 
 
