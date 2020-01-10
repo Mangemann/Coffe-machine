@@ -224,19 +224,18 @@ returnChange(amountOfMoneyPaid)
 - if amountOfMoneyPaid is equal to pricePerCup, then no money gets payed back
 - if amountOfMoneyPaid is less than pricePerCup, then pay back money equal to the value of amountOfMoneyPaid
 
-checkInsertedCoinObject()
+checkInsertedCoinObject(insertedObject)
 -called when the user inserts something into the coinsocket of the machine
--if the object inserted is a valid Swedish coin, call method payByCash()
--if the object inserted is not a valid Swedish coin, display 'Myntet kunde inte läsas, välj ett annat mynt eller försök igen' on the display screen
+-if the object inserted is a valid Swedish coin, set local variable coinValue to insertedObject and call method payByCash(coinValue)
+-if the object inserted is not a valid Swedish coin, display 'Myntet kunde inte läsas, välj ett annat mynt eller försök igen' on the display screen and return false
 
 payByCard()
 -called when the user inputs a card into the cardsocket of the machine
 -if the transaction was successful, adds funds to amountOfMoneyPaid corresponding to the price of the beverage
 -returns the new amountOfMoneyPaid property if the transaction was successful
 
-payByCash(coin)
--reads the value of the coin inserted into the machine and saves it in a local variable
--adds the value of <coin> to the amountOfMoneyPaid property 
+payByCash(coinValue)
+-adds the value of <coinValue> to the amountOfMoneyPaid property 
 
 selectSugar()
 -called when the user presses the 'sugar' button
@@ -273,23 +272,23 @@ selectChocolate()
 -sets the value of chocolateButtonPressed to 'true', and the value of latteButtonPressed, teButtonPressed, kaffeButtonPressed to 'false'
 -last, light up the 'choklad' button and turn of the lights of the 'latte', 'kaffe', 'mjölk', 'socker', 'kanna' and 'te' buttons
 
-refillSugar()
+refillSugar(weight)
 -called when the lid to the sugar storage unit is closed
 -weighs the amount of sugar in the sugar compartment and sets the value of amountOfSugar to that weight
 
-refillCoffee()
+refillCoffee(weight)
 -called when the lid to the coffee storage unit is closed
 -weighs the amount of coffee in the coffee compartment and sets the value of amountOfCoffee to that weight
 
-refillMilk()
+refillMilk(weight)
 -called when the lid to the milk storage unit is closed
--weighs the amount of milk in the milk compartment and sets the value of amountOfMilk to that weight divided by 1.03
+-weighs the amount of milk in the milk compartment and sets the value of amountOfMilk to that weight
 
-refillChocolate()
+refillChocolate(weight)
 -called when the lid to the sugar storage unit is closed
 -weighs the amount of chocolate in the chocolate compartment and sets the value of amountOfChocolate to that weight
 
-refillCups()
+refillCups(weight)
 -called when the lid to the cup storage unit is closed
 -weighs the mass of the cups, divides that with 2.4, then sets the value of amountOfCups to the result
 
