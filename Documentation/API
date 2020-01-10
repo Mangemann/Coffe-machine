@@ -210,7 +210,7 @@ brewChocolate()
 
 brewLatte()
 -brews a beverage of Latte
--heat up <waterPerLatte> water and add <milkPerLatteCup> heated milk
+-heat up <waterPerLatte> water and filter through <coffeePerLatteCup>, then add <milkPerLatteCup> heated milk
 -last, subtract <coffeePerLatteCup> from <ammountOfCoffee>, and <milkPerLatteCup> from <ammountOfMilk> 
 
 brewKanna()
