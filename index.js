@@ -24,10 +24,14 @@ class MyMachine{
         this.sockerButtonPressed = false
         this.mjolkButtonPressed = false
         this.kannaButtonPressed = false
+        this.startButtonPressed = false
+        this.cancelButtonPressed = false
         this.amountOfMoneyPaid = 0
+        this.reservedAmountFromCardPaid = 0
         this.pricePerCup = 10
         this.amountOfCups = 0
         this.cardPaymentSuccessful = false
+        this.amountOfChange = 0
         this.beverageBrewedSuccessfully = false
 
     }
@@ -104,7 +108,23 @@ class MyMachine{
 
     }
 
+    reservedCardPaymentHandler() {
+        
+    }
+
     returnChange() {
+
+        if (this.cancelButtonPressed) {
+            this.amountOfChange = this.amountOfMoneyPaid
+            this.amountOfMoneyPaid = 0
+            this.reservedAmountFromCardPaid = 0
+            return this.amountOfChange
+        }
+
+        this.amountOfChange = this.amountOfMoneyPaid + this.reservedAmountFromCardPaid - 10
+        this.amountOfMoneyPaid = 0
+        this.reservedAmountFromCardPaid = 0
+        return this.amountOfChange
 
     }
 
@@ -120,8 +140,10 @@ class MyMachine{
         
     }
 
-    payByCash() {
-
+    payByCash(amount) {
+        let paidMoney = amount/1
+        this.amountOfMoneyPaid += paidMoney
+        return true
     }
 
     selectSugar() {

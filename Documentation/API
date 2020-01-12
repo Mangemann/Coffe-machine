@@ -102,7 +102,12 @@ Initial value: false
 - describes if the 'Kanna' button is pressed or not
 
 amountOfMoneyPaid(number)
+Initial value: 0
 - describes how much money the user has payed so far
+
+reservedAmountFromCardPaid(number)
+Initial value: 0
+-money reserved from bankcard account
 
 pricePerCup(number)
 Initial value: 10
@@ -234,12 +239,17 @@ brewKanna()
 -subtract <coffeePerKanna> from <amountOfCoffee>
 -return 0
 
+reservedCardPaymentHandler(originCalledFrom)
+- determines if the reserved amount on card whould be deducted from bankaccount or not
+- if originCalledFrom is 'cancel', no deduction is to be made, return false
+- else deduct amount from card, return true
 
 returnChange(amountOfMoneyPaid)
-- compares amountOfMoneyPaid to pricePerCup
-- if amountOfMoneyPaid is greater than pricePerCup, then the difference will be payed back in corresponding change through the return socket on the machine
-- if amountOfMoneyPaid is equal to pricePerCup, then no money gets payed back
-- if amountOfMoneyPaid is less than pricePerCup, then pay back money equal to the value of amountOfMoneyPaid
+- compares amountOfMoneyPaid and reservedAmountFromCardPaid to pricePerCup
+- if the cancelbutton is pressed, amountOfMoneyPaid will be payed back
+- else if amountOfMoneyPaid and reservedAmountFromCardPaid is greater than pricePerCup, then the difference will be payed back in corresponding change through the return socket on the machine
+- else if amountOfMoneyPaid and reservedAmountFromCardPaid is equal to pricePerCup, then no money gets payed back
+- else if amountOfMoneyPaid and reservedAmountFromCardPaid is less than pricePerCup, then pay back money equal to the value of amountOfMoneyPaid
 
 checkInsertedCoinObject(insertedObject)
 -called when the user inserts something into the coinsocket of the machine

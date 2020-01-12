@@ -14,7 +14,7 @@ Feature:
         And a <coin5> coin
         And a <coin6> coin
         And a <coin7> coin
-        And I press the cancelbutton
+        And I press the startbutton
         Then i should recieve <change>kr in coins back
 
         Examples:
@@ -23,7 +23,6 @@ Feature:
             | 1     | 1     | 1     | 2     | 2     | 2     | 2     | 1      |
             | 5     | 2     | 2     | 2     | 0     | 0     | 0     | 1      |
             | 10    | 5     | 5     | 2     | 1     | 0     | 0     | 13     |
-            | 5     | 2     | 0     | 0     | 0     | 0     | 0     | 0      |
 
     Scenario: the user inserts something that is not a valid coin into the coinsocket
         When I insert something that is not a valid coin into the coinsocket
@@ -57,9 +56,12 @@ Feature:
         Then i should get <change>kr back
 
         Examples:
-        | amount | change |
-        |     10 |     10 |
-        |     13 |     13 |
-        |     21 |     21 |
-        |      3 |      3 |
-            
+            | amount | change |
+            | 10     | 10     |
+            | 13     | 13     |
+
+    Scenario: User pays with card, then presses the cancelbutton
+        Given that the user has payed with card
+        When the user presses the cancelbutton
+        Then the user gets no change back
+        And no money is deducted from the card
