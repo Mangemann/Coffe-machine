@@ -33,6 +33,7 @@ class MyMachine{
         this.cardPaymentSuccessful = false
         this.amountOfChange = 0
         this.beverageBrewedSuccessfully = false
+        this.timesPaidWithCardCounter = 0
 
     }
 
@@ -65,6 +66,24 @@ class MyMachine{
     }
 
     start() {
+
+        if (this.pluggedInWater == false) {
+
+            return 'No water plugged in, please call maintenance'
+        
+        }
+        
+        else if (this.amountOfCups == 0) {
+            
+            return 'Not enough cups, please refill'
+
+        }
+
+        else if (this.amountOfMoneyPaid + this.reservedAmountFromCardPaid < 10) {
+            
+            return 'Not enough money paid'
+            
+        }
 
     }
 
@@ -114,29 +133,79 @@ class MyMachine{
 
     returnChange() {
 
-        if (this.cancelButtonPressed) {
+        if (this.cancelButtonPressed && this.reservedAmountFromCardPaid > 0 && this.amountOfMoneyPaid > 0) {
             this.amountOfChange = this.amountOfMoneyPaid
             this.amountOfMoneyPaid = 0
+            //insert method here to tell bank to not pay the reserved amount, i dont
             this.reservedAmountFromCardPaid = 0
+            this.cancelButtonPressed = false
             return this.amountOfChange
         }
 
-        this.amountOfChange = this.amountOfMoneyPaid + this.reservedAmountFromCardPaid - 10
-        this.amountOfMoneyPaid = 0
-        this.reservedAmountFromCardPaid = 0
-        return this.amountOfChange
+        else if (this.timesPaidWithCardCounter > 0) {
+            this.amountOfChange = this.amountOfMoneyPaid + this.reservedAmountFromCardPaid - this.pricePerCup * this.timesPaidWithCardCounter
+            this.amountOfMoneyPaid = 0
+            this.reservedAmountFromCardPaid = 0
+            this.startButtonPressed = false
+            this.timesPaidWithCardCounter = 0
+            return this.amountOfChange
+        }
+        else if (this.timesPaidWithCardCounter == 0 && this.startButtonPressed == true) {
+
+            this.amountOfChange = this.amountOfMoneyPaid + this.reservedAmountFromCardPaid - this.pricePerCup
+            this.amountOfMoneyPaid = 0
+            this.reservedAmountFromCardPaid = 0
+            this.startButtonPressed = false
+            this.timesPaidWithCardCounter = 0
+            return this.amountOfChange
+            
+        }
+
+        else if (this.timesPaidWithCardCounter == 0 && this.cancelButtonPressed == true) {
+
+            this.amountOfChange = this.amountOfMoneyPaid
+            this.amountOfMoneyPaid = 0
+            this.reservedAmountFromCardPaid = 0
+            this.startButtonPressed = false
+            this.timesPaidWithCardCounter = 0
+            return this.amountOfChange
+
+        }
 
     }
 
-    payByCard() {
+    payByCard(ifTransactionSucceeded) {
+
+        if (ifTransactionSucceeded) {
+            this.reservedAmountFromCardPaid += 10
+            this.timesPaidWithCardCounter++
+        }
+
+        else {
+            return 'Transaction failed, not enough funds'
+        }
 
     }
 
     payByStudentCard() {
 
+        this.reservedAmountFromCardPaid += 10
+        this.timesPaidWithCardCounter++
+
     }
 
-    checkInsertedCoinObject() {
+    checkInsertedCoinObject(objectValue) {
+
+        objectValue = Number(objectValue)
+        //code here for determinining correct currency
+        if (objectValue == 1 || objectValue == 2 || objectValue == 5 || objectValue == 10 || objectValue == 0) {
+            this.payByCash(objectValue)
+            return true
+        }
+
+        else {
+            return 'Invalid object, try again'
+        }
         
     }
 

@@ -5,51 +5,25 @@
             <property name="URI" value="C:\Users\jitma\Desktop\Coffee-machine\features\money_Interactions.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000792599">
+        <testcase name="Given that the machine is plugged in" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000916299">
         </testcase>
-        <testcase name="When I have inserted a 10 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000244199">
+        <testcase name="When I have inserted a 10 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0002702">
         </testcase>
-        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0002241">
+        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000187699">
         </testcase>
-        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0002007">
+        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000106599">
         </testcase>
-        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000117699">
+        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000106801">
         </testcase>
-        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000089101">
+        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000913">
         </testcase>
-        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000102401">
+        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000089201">
         </testcase>
-        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000130899">
+        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000088099">
         </testcase>
-        <testcase name="And I press the startbutton" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0002158">
+        <testcase name="And I press the startbutton" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0002237">
         </testcase>
-        <testcase name="Then i should recieve 0kr in coins back" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000277599">
-        </testcase>
-    </testsuite>
-    <testsuite name=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" tests="10" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="C:\Users\jitma\Desktop\Coffee-machine\features\money_Interactions.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine is plugged in" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000145101">
-        </testcase>
-        <testcase name="When I have inserted a 1 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000082299">
-        </testcase>
-        <testcase name="And a 1 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000084099">
-        </testcase>
-        <testcase name="And a 1 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000635">
-        </testcase>
-        <testcase name="And a 2 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000066201">
-        </testcase>
-        <testcase name="And a 2 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000663">
-        </testcase>
-        <testcase name="And a 2 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000723">
-        </testcase>
-        <testcase name="And a 2 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000695">
-        </testcase>
-        <testcase name="And I press the startbutton" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000048799">
-        </testcase>
-        <testcase name="Then i should recieve 1kr in coins back" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000628">
+        <testcase name="Then i should recieve 0kr in coins back" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0002603">
         </testcase>
     </testsuite>
     <testsuite name=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" tests="10" failures="0" skipped="0">
@@ -57,25 +31,25 @@
             <property name="URI" value="C:\Users\jitma\Desktop\Coffee-machine\features\money_Interactions.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000967">
+        <testcase name="Given that the machine is plugged in" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0001165">
         </testcase>
-        <testcase name="When I have inserted a 5 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000959">
+        <testcase name="When I have inserted a 1 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000139601">
         </testcase>
-        <testcase name="And a 2 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000119999">
+        <testcase name="And a 1 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000194199">
         </testcase>
-        <testcase name="And a 2 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000784">
+        <testcase name="And a 1 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000159501">
         </testcase>
-        <testcase name="And a 2 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000069401">
+        <testcase name="And a 2 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0001684">
         </testcase>
-        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000072599">
+        <testcase name="And a 2 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000104801">
         </testcase>
-        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000061901">
+        <testcase name="And a 2 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000081099">
         </testcase>
-        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000605">
+        <testcase name="And a 2 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000103">
         </testcase>
-        <testcase name="And I press the startbutton" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000525">
+        <testcase name="And I press the startbutton" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000058101">
         </testcase>
-        <testcase name="Then i should recieve 1kr in coins back" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000061499">
+        <testcase name="Then i should recieve 1kr in coins back" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000070099">
         </testcase>
     </testsuite>
     <testsuite name=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" tests="10" failures="0" skipped="0">
@@ -83,213 +57,187 @@
             <property name="URI" value="C:\Users\jitma\Desktop\Coffee-machine\features\money_Interactions.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000065499">
+        <testcase name="Given that the machine is plugged in" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0001156">
         </testcase>
-        <testcase name="When I have inserted a 10 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0001069">
+        <testcase name="When I have inserted a 5 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000135701">
         </testcase>
-        <testcase name="And a 5 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000083299">
+        <testcase name="And a 2 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000958">
         </testcase>
-        <testcase name="And a 5 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000608">
+        <testcase name="And a 2 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000961">
         </testcase>
-        <testcase name="And a 2 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000055299">
+        <testcase name="And a 2 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000139401">
         </testcase>
-        <testcase name="And a 1 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000059701">
+        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000831">
         </testcase>
-        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000516">
+        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000075001">
         </testcase>
-        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000048299">
+        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000067001">
         </testcase>
-        <testcase name="And I press the startbutton" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000524">
+        <testcase name="And I press the startbutton" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000053001">
         </testcase>
-        <testcase name="Then i should recieve 13kr in coins back" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000057101">
+        <testcase name="Then i should recieve 1kr in coins back" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000616">
         </testcase>
     </testsuite>
-    <testsuite name=";the-user-inserts-something-that-is-not-a-valid-coin-into-the-coinsocket" tests="3" failures="0" skipped="2">
+    <testsuite name=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" tests="10" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:\Users\jitma\Desktop\Coffee-machine\features\money_Interactions.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";the-user-inserts-something-that-is-not-a-valid-coin-into-the-coinsocket" time="0.0000715">
+        <testcase name="Given that the machine is plugged in" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0001391">
         </testcase>
-        <testcase name="When I insert something that is not a valid coin into the coinsocket" classname=";the-user-inserts-something-that-is-not-a-valid-coin-into-the-coinsocket">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I have inserted a 10 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000115099">
         </testcase>
-        <testcase name="Then I should get an error message" classname=";the-user-inserts-something-that-is-not-a-valid-coin-into-the-coinsocket">
-            <skipped message="">
-            </skipped>
+        <testcase name="And a 5 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000089901">
+        </testcase>
+        <testcase name="And a 5 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000072101">
+        </testcase>
+        <testcase name="And a 2 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000954">
+        </testcase>
+        <testcase name="And a 1 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000707">
+        </testcase>
+        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000091999">
+        </testcase>
+        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0001034">
+        </testcase>
+        <testcase name="And I press the startbutton" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000718">
+        </testcase>
+        <testcase name="Then i should recieve 13kr in coins back" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000060101">
         </testcase>
     </testsuite>
-    <testsuite name=";the-user-puts-in-a-coin,-and-then-pays-by-card" tests="4" failures="0" skipped="3">
+    <testsuite name=";the-user-inserts-something-that-is-not-a-valid-coin-into-the-coinsocket" tests="3" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:\Users\jitma\Desktop\Coffee-machine\features\money_Interactions.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.0001506">
+        <testcase name="Given that the machine is plugged in" classname=";the-user-inserts-something-that-is-not-a-valid-coin-into-the-coinsocket" time="0.0000818">
         </testcase>
-        <testcase name="When I insert a 5kr coin" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I insert something that is not a valid coin into the coinsocket" classname=";the-user-inserts-something-that-is-not-a-valid-coin-into-the-coinsocket" time="0.000165199">
         </testcase>
-        <testcase name="And I pay 10kr with card" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then i should recieve 5kr in change" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I should get an error message" classname=";the-user-inserts-something-that-is-not-a-valid-coin-into-the-coinsocket" time="0.0001077">
         </testcase>
     </testsuite>
-    <testsuite name=";the-user-puts-in-a-coin,-and-then-pays-by-card" tests="4" failures="0" skipped="3">
+    <testsuite name=";the-user-puts-in-a-coin,-and-then-pays-by-card" tests="5" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:\Users\jitma\Desktop\Coffee-machine\features\money_Interactions.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.000093">
+        <testcase name="Given that the machine is plugged in" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.0000982">
         </testcase>
-        <testcase name="When I insert a 2kr coin" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I insert a 5kr coin" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.000172999">
         </testcase>
-        <testcase name="And I pay 10kr with card" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I pay 10kr with card" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.000263299">
         </testcase>
-        <testcase name="Then i should recieve 2kr in change" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card">
-            <skipped message="">
-            </skipped>
+        <testcase name="And i press the startbutton" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.0001522">
+        </testcase>
+        <testcase name="Then i should recieve 5kr in change" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.0001618">
         </testcase>
     </testsuite>
-    <testsuite name=";the-user-puts-in-a-coin,-and-then-pays-by-card" tests="4" failures="0" skipped="3">
+    <testsuite name=";the-user-puts-in-a-coin,-and-then-pays-by-card" tests="5" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:\Users\jitma\Desktop\Coffee-machine\features\money_Interactions.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.000088601">
+        <testcase name="Given that the machine is plugged in" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.0000817">
         </testcase>
-        <testcase name="When I insert a 1kr coin" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I insert a 2kr coin" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.0000907">
         </testcase>
-        <testcase name="And I pay 10kr with card" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I pay 10kr with card" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.0000822">
         </testcase>
-        <testcase name="Then i should recieve 1kr in change" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card">
-            <skipped message="">
-            </skipped>
+        <testcase name="And i press the startbutton" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.000063799">
+        </testcase>
+        <testcase name="Then i should recieve 2kr in change" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.0000613">
         </testcase>
     </testsuite>
-    <testsuite name=";the-user-pays-with-a-card-without-enough-funds-on-it" tests="4" failures="0" skipped="3">
+    <testsuite name=";the-user-puts-in-a-coin,-and-then-pays-by-card" tests="5" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:\Users\jitma\Desktop\Coffee-machine\features\money_Interactions.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";the-user-pays-with-a-card-without-enough-funds-on-it" time="0.0000862">
+        <testcase name="Given that the machine is plugged in" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.000073799">
         </testcase>
-        <testcase name="When i pay by card" classname=";the-user-pays-with-a-card-without-enough-funds-on-it">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I insert a 1kr coin" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.000100699">
         </testcase>
-        <testcase name="And i do not have enough money" classname=";the-user-pays-with-a-card-without-enough-funds-on-it">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I pay 10kr with card" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.000088001">
         </testcase>
-        <testcase name="Then i should get a message that i do not have enough funds" classname=";the-user-pays-with-a-card-without-enough-funds-on-it">
-            <skipped message="">
-            </skipped>
+        <testcase name="And i press the startbutton" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.0000624">
+        </testcase>
+        <testcase name="Then i should recieve 1kr in change" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.000068599">
         </testcase>
     </testsuite>
-    <testsuite name=";the-user-tries-to-buy-a-coffee-without-inserting-enough-money" tests="4" failures="0" skipped="3">
+    <testsuite name=";the-user-pays-with-a-card-without-enough-funds-on-it" tests="4" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:\Users\jitma\Desktop\Coffee-machine\features\money_Interactions.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";the-user-tries-to-buy-a-coffee-without-inserting-enough-money" time="0.0001013">
+        <testcase name="Given that the machine is plugged in" classname=";the-user-pays-with-a-card-without-enough-funds-on-it" time="0.000110201">
         </testcase>
-        <testcase name="Given that i have not inserted enough money" classname=";the-user-tries-to-buy-a-coffee-without-inserting-enough-money">
-            <skipped message="">
-            </skipped>
+        <testcase name="When i pay by card" classname=";the-user-pays-with-a-card-without-enough-funds-on-it" time="0.0002269">
         </testcase>
-        <testcase name="When I press the startbutton" classname=";the-user-tries-to-buy-a-coffee-without-inserting-enough-money">
-            <skipped message="">
-            </skipped>
+        <testcase name="And i do not have enough money" classname=";the-user-pays-with-a-card-without-enough-funds-on-it" time="0.0003537">
         </testcase>
-        <testcase name="Then I should get a message that i have not inserted enough money" classname=";the-user-tries-to-buy-a-coffee-without-inserting-enough-money">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then i should get a message that i do not have enough funds" classname=";the-user-pays-with-a-card-without-enough-funds-on-it" time="0.000100701">
         </testcase>
     </testsuite>
-    <testsuite name=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" tests="5" failures="0" skipped="4">
+    <testsuite name=";the-user-tries-to-buy-a-coffee-without-inserting-enough-money" tests="4" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:\Users\jitma\Desktop\Coffee-machine\features\money_Interactions.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" time="0.0000755">
+        <testcase name="Given that the machine is plugged in" classname=";the-user-tries-to-buy-a-coffee-without-inserting-enough-money" time="0.000097901">
         </testcase>
-        <testcase name="Given that i have payed 10 kr" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing">
-            <skipped message="">
-            </skipped>
+        <testcase name="Given that i have not inserted enough money" classname=";the-user-tries-to-buy-a-coffee-without-inserting-enough-money" time="0.0003183">
         </testcase>
-        <testcase name="And have not pressed the startbutton" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I press the startbutton" classname=";the-user-tries-to-buy-a-coffee-without-inserting-enough-money" time="0.000081">
         </testcase>
-        <testcase name="When i press the cancelbutton" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then i should get 10kr back" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then I should get a message that i have not inserted enough money" classname=";the-user-tries-to-buy-a-coffee-without-inserting-enough-money" time="0.000179399">
         </testcase>
     </testsuite>
-    <testsuite name=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" tests="5" failures="0" skipped="4">
+    <testsuite name=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" tests="5" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:\Users\jitma\Desktop\Coffee-machine\features\money_Interactions.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" time="0.000071701">
+        <testcase name="Given that the machine is plugged in" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" time="0.0000981">
         </testcase>
-        <testcase name="Given that i have payed 13 kr" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing">
-            <skipped message="">
-            </skipped>
+        <testcase name="Given that i have payed 10 kr" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" time="0.000176799">
         </testcase>
-        <testcase name="And have not pressed the startbutton" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing">
-            <skipped message="">
-            </skipped>
+        <testcase name="And have not pressed the startbutton" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" time="0.0001248">
         </testcase>
-        <testcase name="When i press the cancelbutton" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing">
-            <skipped message="">
-            </skipped>
+        <testcase name="When i press the cancelbutton" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" time="0.0001453">
         </testcase>
-        <testcase name="Then i should get 13kr back" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then i should get 10kr back" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" time="0.000123699">
         </testcase>
     </testsuite>
-    <testsuite name=";user-pays-with-card,-then-presses-the-cancelbutton" tests="5" failures="0" skipped="4">
+    <testsuite name=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" tests="5" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:\Users\jitma\Desktop\Coffee-machine\features\money_Interactions.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";user-pays-with-card,-then-presses-the-cancelbutton" time="0.0000986">
+        <testcase name="Given that the machine is plugged in" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" time="0.0000824">
         </testcase>
-        <testcase name="Given that the user has payed with card" classname=";user-pays-with-card,-then-presses-the-cancelbutton">
-            <skipped message="">
-            </skipped>
+        <testcase name="Given that i have payed 13 kr" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" time="0.0000898">
         </testcase>
-        <testcase name="When the user presses the cancelbutton" classname=";user-pays-with-card,-then-presses-the-cancelbutton">
-            <skipped message="">
-            </skipped>
+        <testcase name="And have not pressed the startbutton" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" time="0.000080399">
         </testcase>
-        <testcase name="Then the user gets no change back" classname=";user-pays-with-card,-then-presses-the-cancelbutton">
-            <skipped message="">
-            </skipped>
+        <testcase name="When i press the cancelbutton" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" time="0.000081701">
         </testcase>
-        <testcase name="And no money is deducted from the card" classname=";user-pays-with-card,-then-presses-the-cancelbutton">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then i should get 13kr back" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" time="0.000059799">
+        </testcase>
+    </testsuite>
+    <testsuite name=";user-pays-with-card,-then-presses-the-cancelbutton" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:\Users\jitma\Desktop\Coffee-machine\features\money_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";user-pays-with-card,-then-presses-the-cancelbutton" time="0.000114601">
+        </testcase>
+        <testcase name="Given that the user has payed with card" classname=";user-pays-with-card,-then-presses-the-cancelbutton" time="0.000461899">
+        </testcase>
+        <testcase name="When the user presses the cancelbutton" classname=";user-pays-with-card,-then-presses-the-cancelbutton" time="0.000196501">
+        </testcase>
+        <testcase name="Then the user gets no change back" classname=";user-pays-with-card,-then-presses-the-cancelbutton" time="0.000161299">
+        </testcase>
+        <testcase name="And no money is deducted from the card" classname=";user-pays-with-card,-then-presses-the-cancelbutton" time="0.0001529">
         </testcase>
     </testsuite>
 </testsuites>

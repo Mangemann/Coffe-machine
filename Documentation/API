@@ -163,10 +163,10 @@ cupSupplyLeft()
 start()
 -called when the user presses the 'start' button
 -calls the method cupSupplyLeft() and checkIfWaterIsPluggedIn()
--if both method returns true, and the value of the amountOfMoneyPaid property is atleast the value of pricePerCup then the method brewBeverage() is called
--else, it will not brew and user can try again until the 'cancel' button is pressed
 -if amountOfCups() method does not return true, display 'no cups avaliable in the machine, please refill' on the screen
 -if checkIfWaterIsPluggedIn() method does not return true, display 'No water avaliable, connect the machine to a water source'
+-if both method returns true, and the value of the amountOfMoneyPaid property is atleast the value of pricePerCup then the method brewBeverage() is called
+-else, it will not brew and user can try again until the 'cancel' button is pressed
 -if coffeeSupplyLeft returns false, display 'not enough coffe in the machine, please refill' on the screen
 -if milkSupplyLeft returns false, display 'not enough milk in the machine, please refill' on the screen
 -if sugarSupplyLeft returns false, display 'not enough sugar in the machine, please refill' on the screen

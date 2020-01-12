@@ -31,6 +31,7 @@ Feature:
     Scenario Outline: The user puts in a coin, and then pays by card
         When I insert a <coin>kr coin
         And I pay <cardAmount>kr with card
+        And i press the startbutton
         Then i should recieve <change>kr in change
 
         Examples:
