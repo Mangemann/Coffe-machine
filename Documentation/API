@@ -112,6 +112,14 @@ amountOfCups(number)
 Initial value: 0
 -describes how many cups are left in the machine
 
+cardPaymentSuccessful(boolean)
+Initial value: false
+-describes if cardpayments are successful or not
+
+beverageBrewedSuccessfully(boolean)
+Initial value: false
+-describes if the beverage was successfully brewed
+
 
 #Methods
 
@@ -182,41 +190,50 @@ brewBeverage()
 brewCoffeeMilkSugar()
 -brews a coffee beverage with milk and sugar
 -heat <sizeOfCup> of water, filter through <coffeePerCup> grams ground coffee, add <milkPerCup> ml of heated milk and <sugarPerCup> grams of sugar
--last, subtract <coffeePerCup> from <amountOfCoffee>, <milkPerCup> from <amountOfMilk>, and <sugarPerCup> from <amountOfSugar>
+-subtract <coffeePerCup> from <amountOfCoffee>, <milkPerCup> from <amountOfMilk>, <sugarPerCup> from <amountOfSugar>, and 1 from amountOfCups
+-return 1
 
 brewCoffeMilk()
 -brews a coffee beverage with milk
 -heat <sizeOfCup> of water, filter through <coffeePerCup> grams ground coffee then add <milkPerCup> ml of heated milk
--last, subtract <coffeePerCup> from <amountOfCoffee>, and <milkPerCup> from <amountOfMilk> 
+-subtract <coffeePerCup> from <amountOfCoffee>, <milkPerCup> from <amountOfMilk>, and 1 from amountOfCups
+-return 1
 
-brewCoffeeSugar
+brewCoffeeSugar()
 -brews a coffee beverage with sugar
 -heat <sizeOfCup> of water, filter through <coffeePerCup> grams ground coffee and add <sugarPerCup> grams of sugar
--last, subtract <coffeePerCup> from <amountOfCoffee>, and <sugarPerCup> from <amountOfSugar>
+-subtract <coffeePerCup> from <amountOfCoffee>, <sugarPerCup> from <amountOfSugar>, and 1 from amountOfCups
+-return 1
 
 brewCoffee()
 -brews a coffee beverage
 -heat <sizeOfCup> of water and filter through <coffeePerCup> grams ground coffee
--last, subtract <coffeePerCup> from <amountOfCoffee>
+-subtract <coffeePerCup> from <amountOfCoffee>, and 1 from amountOfCups
+-return 1
 
-brewTe()
+brewTea()
 -brews a beverage of tea
--heat up <sizeOfCup> of water
+-heat up <sizeOfCup> of water, and subtract 1 from amountOfCups
+-return 1
 
 brewChocolate()
 -brews a beverage of hot chocolate
 -heat up <sizeOfCup> of water and add <chocolatePerCup> of chocolate powder
--last, subtract <chocolatePerCup> from <amountOfChocolate>
+-subtract <chocolatePerCup> from <amountOfChocolate>, and 1 from amountOfCups
+-return 1
 
 brewLatte()
 -brews a beverage of Latte
 -heat up <waterPerLatte> water and filter through <coffeePerLatteCup>, then add <milkPerLatteCup> heated milk
--last, subtract <coffeePerLatteCup> from <amountOfCoffee>, and <milkPerLatteCup> from <amountOfMilk> 
+-subtract <coffeePerLatteCup> from <amountOfCoffee>, <milkPerLatteCup> from <amountOfMilk> , and 1 from amountOfCups
+-return 1
 
 brewKanna()
 -brews a kanna of coffee
 -heat up <waterPerKanna> water and filter through <coffeePerKanna> grams of ground coffee
--last, subtract <coffeePerKanna> from <amountOfCoffee>
+-subtract <coffeePerKanna> from <amountOfCoffee>
+-return 0
+
 
 returnChange(amountOfMoneyPaid)
 - compares amountOfMoneyPaid to pricePerCup
@@ -230,9 +247,13 @@ checkInsertedCoinObject(insertedObject)
 -if the object inserted is not a valid Swedish coin, display 'Myntet kunde inte läsas, välj ett annat mynt eller försök igen' on the display screen and return false
 
 payByCard()
--called when the user inputs a card into the cardsocket of the machine
+-called when the user inputs a creditcard into the cardsocket of the machine
 -if the transaction was successful, adds funds to amountOfMoneyPaid corresponding to the price of the beverage
 -returns the new amountOfMoneyPaid property if the transaction was successful
+
+payByStudentCard()
+-called when the user inputs a studentCard into the cardsocket of the machine
+-adds pricePerCup to amountOfMoneyPaid
 
 payByCash(coinValue)
 -adds the value of <coinValue> to the amountOfMoneyPaid property 
@@ -262,7 +283,7 @@ selectLatte()
 -sets the value of latteButtonPressed to 'true', and the value of kaffeButtonPressed, teButtonPressed, chokladButtonPressed to 'false'
 -last, light up the 'Latte' button and turn of the lights of the 'kaffe', 'choklad', 'mjölk', 'socker', 'kanna' and 'te' buttons
 
-selectTe()
+selectTea()
 -called when the user presses the 'Te' button
 -sets the value of teButtonPressed to 'true', and the value of latteButtonPressed, kaffeButtonPressed, chokladButtonPressed to 'false'
 -last, light up the 'te' button and turn of the lights of the 'latte', 'choklad', 'mjölk', 'socker', 'kanna' and 'kaffe' buttons

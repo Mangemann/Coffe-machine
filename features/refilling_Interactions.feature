@@ -10,8 +10,8 @@ Background:
     Scenario Outline:
     Given that the <typeOfRefill> deposit contains <startValue>
     And I put in <amountToFill>
-    When i close the lid of the deposit
-    Then i should have <endAmount> in the deposit
+    When I close the lid of the deposit
+    Then I should have <endAmount> in the deposit
 
     Examples:
         |typeOfRefill|startValue|amountToFill|endAmount|

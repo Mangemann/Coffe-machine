@@ -27,6 +27,8 @@ class MyMachine{
         this.amountOfMoneyPaid = 0
         this.pricePerCup = 10
         this.amountOfCups = 0
+        this.cardPaymentSuccessful = false
+        this.beverageBrewedSuccessfully = false
 
     }
 
@@ -107,6 +109,10 @@ class MyMachine{
     }
 
     payByCard() {
+
+    }
+
+    payByStudentCard() {
 
     }
 
