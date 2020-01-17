@@ -30,6 +30,10 @@ class MyMachine{
         this.reservedAmountFromCardPaid = 0
         this.pricePerCup = 10
         this.amountOfCups = 0
+        this.coffeeLidClosed = true
+        this.milkLidClosed = true
+        this.cupLidClosed = true
+        this.chocolateLidClosed = true
         this.cardPaymentSuccessful = false
         this.amountOfChange = 0
         this.beverageBrewedSuccessfully = false
@@ -243,20 +247,40 @@ class MyMachine{
 
     }
 
-    refillSugar() {
+    refillSugar(weightAmount) {
+
+        this.amountofSugar += weightAmount
+        return true
 
     }
 
-    refillMilk() {
+    refillMilk(weightAmount) {
+
+        this.amountofMilk += weightAmount
+        return true
 
     }
 
-    refillCoffee() {
+    refillCoffee(weightAmount) {
+
+        this.amountofCoffee += weightAmount
+        return true
 
     }
 
-    refillChocolate() {
+    refillChocolate(weightAmount) {
+
+        this.amountofChocolate += weightAmount
+        return true
         
+    }
+
+    refillCups(weightAmount) {
+
+        weightAmount = (weightAmount / 2.4)
+        this.amountOfCups += weightAmount
+        return true
+
     }
 
     

@@ -191,6 +191,125 @@ module.exports = function () {
 
     });
 
+    myMachine = new coffeeMachine()
+
+    this.Given(/^that I have opened the lid to the deposit$/, function () {
+
+        myMachine.coffeeLidClosed = false
+        myMachine.milkLidClosed = false
+        myMachine.cupLidClosed = false
+        myMachine.chocolateLidClosed = false
+        myMachine.sugarLidClosed = false
+
+        assert.deepEqual(myMachine.coffeeLidClosed, false);
+        assert.deepEqual(myMachine.milkLidClosed, false);
+        assert.deepEqual(myMachine.cupLidClosed, false);
+        assert.deepEqual(myMachine.chocolateLidClosed, false);
+        assert.deepEqual(myMachine.sugarLidClosed, false);
+        
+    });
+
+    this.Given(/^that the sugar deposit contains (\d+)$/, function (amount) {
+
+        amount = Number(amount)
+        myMachine.amountofSugar = amount
+
+        assert.deepEqual(myMachine.amountofSugar, amount);
+        
+    });
+
+    this.Given(/^I put in (\d+) in the sugar deposit$/, function (refillAmount) {
+        refillAmount = Number(refillAmount)
+        assert.deepEqual(myMachine.refillSugar(refillAmount), true);
+
+        
+    });
+
+    this.When(/^I close the lid of the deposit$/, function () {
+        myMachine.sugarLidClosed = true
+        assert.deepEqual(myMachine.sugarLidClosed, true);
+    });
+
+    this.Then(/^I should have (\d+) in the sugar deposit$/, function (totalAmount) {
+        totalAmount = Number(totalAmount)
+        assert.deepEqual(myMachine.amountofSugar, totalAmount);
+    });
+
+    this.Given(/^that the coffee deposit contains (\d+)$/, function (amountOfCoffeeStart) {
+        amountOfCoffeeStart = Number(amountOfCoffeeStart)
+        myMachine.amountofCoffee = amountOfCoffeeStart
+
+        assert.deepEqual(myMachine.amountofCoffee, amountOfCoffeeStart);
+    });
+
+    this.Given(/^I put in (\d+) in the coffee deposit$/, function (amountToRefill) {
+        amountToRefill = Number(amountToRefill)
+
+        assert.deepEqual(myMachine.refillCoffee(amountToRefill), true);
+    });
+
+    this.Then(/^I should have (\d+) in the coffee deposit$/, function (totalAmount) {
+        totalAmount = Number(totalAmount)
+        assert.deepEqual(myMachine.amountofCoffee, totalAmount);
+    });
+
+    this.Given(/^that the milk deposit contains (\d+)$/, function (amountOfMilkStart) {
+        amountOfMilkStart = Number(amountOfMilkStart)
+        myMachine.amountofMilk = amountOfMilkStart
+
+        assert.deepEqual(myMachine.amountofMilk, amountOfMilkStart);
+    });
+
+    this.Given(/^I put in (\d+) in the milk deposit$/, function (amountToRefill) {
+        amountToRefill = Number(amountToRefill)
+
+        assert.deepEqual(myMachine.refillMilk(amountToRefill), true);
+    });
+
+    this.Then(/^I should have (\d+) in the milk deposit$/, function (totalAmount) {
+        totalAmount = Number(totalAmount)
+        assert.deepEqual(myMachine.amountofMilk, totalAmount);
+    });
+
+    this.Given(/^that the chocolate deposit contains (\d+)$/, function (amountOfChocolateStart) {
+        amountOfChocolateStart = Number(amountOfChocolateStart)
+        myMachine.amountofChocolate = amountOfChocolateStart
+
+        assert.deepEqual(myMachine.amountofChocolate, amountOfChocolateStart);
+    });
+
+    this.Given(/^I put in (\d+) in the chocolate deposit$/, function (amountToRefill) {
+        amountToRefill = Number(amountToRefill)
+
+        assert.deepEqual(myMachine.refillChocolate(amountToRefill), true);
+    });
+
+    this.Then(/^I should have (\d+) in the chocolate deposit$/, function (totalAmount) {
+        totalAmount = Number(totalAmount)
+        assert.deepEqual(myMachine.amountofChocolate, totalAmount);
+    });
+
+    this.Given(/^that the cup deposit contains (\d+)$/, function (amountOfCupsStart) {
+        amountOfCupsStart = Number(amountOfCupsStart)
+        myMachine.amountOfCups = amountOfCupsStart
+
+        assert.deepEqual(myMachine.amountOfCups, amountOfCupsStart);
+    });
+
+    this.Given(/^I put in (\d+) in the cup deposit$/, function (amountToRefill) {
+        amountToRefill = Number(amountToRefill)
+
+        assert.deepEqual(myMachine.refillCups(amountToRefill), true);
+    });
+
+    this.Then(/^I should have (\d+) in the cup deposit$/, function (totalAmount) {
+        totalAmount = Number(totalAmount)
+        assert.deepEqual(myMachine.amountOfCups, totalAmount);
+    });
+
+    
+
+
 
 
 
