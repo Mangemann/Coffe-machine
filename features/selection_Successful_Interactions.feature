@@ -6,12 +6,12 @@ Because my taste of beverage varies from day to day
 Background:
 Given that the machine is plugged in
 And there is water available
-And there is enough components for the desired beverage
 And the user has paid enough money
 
 Scenario Outline:
 Given that the user has selected <beverage>
-When the user has pressed the startbutton
+And there is enough components for <beverage>
+When the user presses the startbutton
 Then the user recieves <cups> cup of beverage
 
 Examples:

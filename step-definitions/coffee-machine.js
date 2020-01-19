@@ -307,6 +307,55 @@ module.exports = function () {
         assert.deepEqual(myMachine.amountOfCups, totalAmount);
     });
 
+    mymachine = new coffeeMachine();
+
+    this.Given(/^there is water available$/, function () {
+
+        myMachine.checkIfWaterIsPluggedIn()
+
+        assert.deepEqual(myMachine.pluggedInWater, true);
+        
+    });
+
+    this.Given(/^the user has paid enough money$/, function () {
+        myMachine.payByCash(300)
+
+        assert.isAbove(myMachine.amountOfMoneyPaid, myMachine.pricePerCup)
+    });
+
+    this.Given(/^that the user has selected kaffemjolksocker$/, function () {
+        myMachine.kaffeButtonPressed = true
+        myMachine.sockerButtonPressed = true
+        myMachine.mjolkButtonPressed = true
+
+        assert.deepEqual(myMachine.kaffeButtonPressed, true);
+        assert.deepEqual(myMachine.sockerButtonPressed, true);
+        assert.deepEqual(myMachine.mjolkButtonPressed, true);
+    });
+
+    this.Given(/^there is enough components for kaffemjolksocker$/, function () {
+        myMachine.refillCoffee(500)
+        myMachine.refillMilk(500)
+        myMachine.refillSugar(500)
+        myMachine.refillCups(240)
+        assert.isAbove(myMachine.amountofCoffee, myMachine.coffeePerCup)
+        assert.isAbove(myMachine.amountofSugar, myMachine.sugarPerCup)
+        assert.isAbove(myMachine.amountofMilk, myMachine.milkPerCup)
+        assert.isAbove(myMachine.amountOfCups, 0)
+    });
+
+    this.When(/^the user presses the startbutton$/, function () {
+        myMachine.startButtonPressed = true
+        assert.deepEqual(myMachine.startButtonPressed, true);
+    });
+
+    this.Then(/^the user recieves (\d+) cup of beverage$/, function (arg1) {
+        arg1 = Number(arg1)
+
+        assert.deepEqual(myMachine.start(), arg1);
+
+    });
+
     
 
 

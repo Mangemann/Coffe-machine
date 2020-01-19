@@ -47,6 +47,8 @@ class MyMachine{
 
     checkIfWaterIsPluggedIn() {
 
+        this.pluggedInWater = true
+
     }
 
     coffeeSupplyLeft() {
@@ -87,6 +89,15 @@ class MyMachine{
             
             return 'Not enough money paid'
             
+        }
+
+        else if (this.kaffeButtonPressed && this.mjolkButtonPressed && this.sockerButtonPressed) {
+            if (this.amountofCoffee < this.coffeePerCup || this.amountofMilk < this.milkPerCup || this.amountofSugar < this.sugarPerCup) {
+                return 'Not enough ingredients, please refill!'
+            }
+            else {
+                return 1
+            }
         }
 
     }
