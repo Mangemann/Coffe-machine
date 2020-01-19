@@ -324,9 +324,8 @@ module.exports = function () {
     });
 
     this.Given(/^that the user has selected kaffemjolksocker$/, function () {
-        myMachine.kaffeButtonPressed = true
-        myMachine.sockerButtonPressed = true
-        myMachine.mjolkButtonPressed = true
+        myMachine.selectMilk()
+        myMachine.selectSugar()
 
         assert.deepEqual(myMachine.kaffeButtonPressed, true);
         assert.deepEqual(myMachine.sockerButtonPressed, true);

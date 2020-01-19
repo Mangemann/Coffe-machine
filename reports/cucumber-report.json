@@ -1,7 +1,1458 @@
 [
   {
-    "description": "As a coffee buyer\nI want to be able to pick different types of beverages and get the beverage i picked\nBecause my taste of beverage varies from day to day",
+    "description": "    As a coffee buyer\n    I want to be able to recieve the money i inserted when i press the cancel button and the machine is not brewing\n    Because i changed my mind",
     "elements": [
+      {
+        "id": ";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "the user inserts a lot of different coins and wants the correct change",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 900499
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I have inserted a 10 coin",
+            "result": {
+              "status": "passed",
+              "duration": 266300
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "a 0 coin",
+            "result": {
+              "status": "passed",
+              "duration": 184699
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "a 0 coin",
+            "result": {
+              "status": "passed",
+              "duration": 108301
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "a 0 coin",
+            "result": {
+              "status": "passed",
+              "duration": 107000
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "a 0 coin",
+            "result": {
+              "status": "passed",
+              "duration": 92500
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "a 0 coin",
+            "result": {
+              "status": "passed",
+              "duration": 97800
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "a 0 coin",
+            "result": {
+              "status": "passed",
+              "duration": 94901
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I press the startbutton",
+            "result": {
+              "status": "passed",
+              "duration": 193500
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:67"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "i should recieve 0kr in coins back",
+            "result": {
+              "status": "passed",
+              "duration": 244900
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:72"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2212384500
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "the user inserts a lot of different coins and wants the correct change",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 131900
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I have inserted a 1 coin",
+            "result": {
+              "status": "passed",
+              "duration": 100200
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "a 1 coin",
+            "result": {
+              "status": "passed",
+              "duration": 112600
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "a 1 coin",
+            "result": {
+              "status": "passed",
+              "duration": 96801
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "a 2 coin",
+            "result": {
+              "status": "passed",
+              "duration": 74999
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "a 2 coin",
+            "result": {
+              "status": "passed",
+              "duration": 79499
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "a 2 coin",
+            "result": {
+              "status": "passed",
+              "duration": 110500
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "a 2 coin",
+            "result": {
+              "status": "passed",
+              "duration": 73899
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I press the startbutton",
+            "result": {
+              "status": "passed",
+              "duration": 57400
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:67"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "i should recieve 1kr in coins back",
+            "result": {
+              "status": "passed",
+              "duration": 74701
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:72"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2073530700
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "the user inserts a lot of different coins and wants the correct change",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 94900
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I have inserted a 5 coin",
+            "result": {
+              "status": "passed",
+              "duration": 122700
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "a 2 coin",
+            "result": {
+              "status": "passed",
+              "duration": 95001
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "a 2 coin",
+            "result": {
+              "status": "passed",
+              "duration": 67800
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "a 2 coin",
+            "result": {
+              "status": "passed",
+              "duration": 60900
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "a 0 coin",
+            "result": {
+              "status": "passed",
+              "duration": 61000
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "a 0 coin",
+            "result": {
+              "status": "passed",
+              "duration": 66101
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "a 0 coin",
+            "result": {
+              "status": "passed",
+              "duration": 62199
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I press the startbutton",
+            "result": {
+              "status": "passed",
+              "duration": 57200
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:67"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "i should recieve 1kr in coins back",
+            "result": {
+              "status": "passed",
+              "duration": 70601
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:72"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1557151801
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "the user inserts a lot of different coins and wants the correct change",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 69299
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I have inserted a 10 coin",
+            "result": {
+              "status": "passed",
+              "duration": 105401
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "a 5 coin",
+            "result": {
+              "status": "passed",
+              "duration": 105101
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "a 5 coin",
+            "result": {
+              "status": "passed",
+              "duration": 77400
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "a 2 coin",
+            "result": {
+              "status": "passed",
+              "duration": 67900
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "a 1 coin",
+            "result": {
+              "status": "passed",
+              "duration": 61800
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "a 0 coin",
+            "result": {
+              "status": "passed",
+              "duration": 60300
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "a 0 coin",
+            "result": {
+              "status": "passed",
+              "duration": 56900
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I press the startbutton",
+            "result": {
+              "status": "passed",
+              "duration": 50400
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:67"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "i should recieve 13kr in coins back",
+            "result": {
+              "status": "passed",
+              "duration": 102199
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:72"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2084747099
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";the-user-inserts-something-that-is-not-a-valid-coin-into-the-coinsocket",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "the user inserts something that is not a valid coin into the coinsocket",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 76900
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I insert something that is not a valid coin into the coinsocket",
+            "result": {
+              "status": "passed",
+              "duration": 182700
+            },
+            "line": 28,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:79"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get an error message",
+            "result": {
+              "status": "passed",
+              "duration": 211900
+            },
+            "line": 29,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:86"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1559624099
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";the-user-puts-in-a-coin,-and-then-pays-by-card",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "The user puts in a coin, and then pays by card",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 102600
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I insert a 5kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 285499
+            },
+            "line": 32,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:92"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pay 10kr with card",
+            "result": {
+              "status": "passed",
+              "duration": 268600
+            },
+            "line": 33,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:98"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i press the startbutton",
+            "result": {
+              "status": "passed",
+              "duration": 125000
+            },
+            "line": 34,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:105"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "i should recieve 5kr in change",
+            "result": {
+              "status": "passed",
+              "duration": 110301
+            },
+            "line": 35,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:110"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1556612301
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";the-user-puts-in-a-coin,-and-then-pays-by-card",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "The user puts in a coin, and then pays by card",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 76200
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I insert a 2kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 112800
+            },
+            "line": 32,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:92"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pay 10kr with card",
+            "result": {
+              "status": "passed",
+              "duration": 96501
+            },
+            "line": 33,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:98"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i press the startbutton",
+            "result": {
+              "status": "passed",
+              "duration": 62600
+            },
+            "line": 34,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:105"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "i should recieve 2kr in change",
+            "result": {
+              "status": "passed",
+              "duration": 59599
+            },
+            "line": 35,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:110"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1568392600
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";the-user-puts-in-a-coin,-and-then-pays-by-card",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "The user puts in a coin, and then pays by card",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 82100
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I insert a 1kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 110000
+            },
+            "line": 32,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:92"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I pay 10kr with card",
+            "result": {
+              "status": "passed",
+              "duration": 111400
+            },
+            "line": 33,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:98"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i press the startbutton",
+            "result": {
+              "status": "passed",
+              "duration": 88500
+            },
+            "line": 34,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:105"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "i should recieve 1kr in change",
+            "result": {
+              "status": "passed",
+              "duration": 93600
+            },
+            "line": 35,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:110"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2084045100
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";the-user-pays-with-a-card-without-enough-funds-on-it",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "The user pays with a card without enough funds on it",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 74001
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "i pay by card",
+            "result": {
+              "status": "passed",
+              "duration": 318599
+            },
+            "line": 44,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:118"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "i do not have enough money",
+            "result": {
+              "status": "passed",
+              "duration": 312600
+            },
+            "line": 45,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:122"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "i should get a message that i do not have enough funds",
+            "result": {
+              "status": "passed",
+              "duration": 97000
+            },
+            "line": 46,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:126"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2080986000
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";the-user-tries-to-buy-a-coffee-without-inserting-enough-money",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "The user tries to buy a coffee without inserting enough money",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 69100
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that i have not inserted enough money",
+            "result": {
+              "status": "passed",
+              "duration": 436500
+            },
+            "line": 49,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:132"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press the startbutton",
+            "result": {
+              "status": "passed",
+              "duration": 72600
+            },
+            "line": 50,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:67"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get a message that i have not inserted enough money",
+            "result": {
+              "status": "passed",
+              "duration": 210400
+            },
+            "line": 51,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:138"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2088159800
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing",
+        "keyword": "Scenario",
+        "line": 61,
+        "name": "The user presses the cancel button when the machine is not brewing",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 67700
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that i have payed 10 kr",
+            "result": {
+              "status": "passed",
+              "duration": 278400
+            },
+            "line": 54,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:146"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "have not pressed the startbutton",
+            "result": {
+              "status": "passed",
+              "duration": 140600
+            },
+            "line": 55,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:153"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "i press the cancelbutton",
+            "result": {
+              "status": "passed",
+              "duration": 113201
+            },
+            "line": 56,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:158"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "i should get 10kr back",
+            "result": {
+              "status": "passed",
+              "duration": 116301
+            },
+            "line": 57,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:163"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1555277899
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing",
+        "keyword": "Scenario",
+        "line": 62,
+        "name": "The user presses the cancel button when the machine is not brewing",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 75301
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that i have payed 13 kr",
+            "result": {
+              "status": "passed",
+              "duration": 119300
+            },
+            "line": 54,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:146"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "have not pressed the startbutton",
+            "result": {
+              "status": "passed",
+              "duration": 82199
+            },
+            "line": 55,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:153"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "i press the cancelbutton",
+            "result": {
+              "status": "passed",
+              "duration": 73100
+            },
+            "line": 56,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:158"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "i should get 13kr back",
+            "result": {
+              "status": "passed",
+              "duration": 65500
+            },
+            "line": 57,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:163"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2070214500
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";user-pays-with-card,-then-presses-the-cancelbutton",
+        "keyword": "Scenario",
+        "line": 64,
+        "name": "User pays with card, then presses the cancelbutton",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 74400
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has payed with card",
+            "result": {
+              "status": "passed",
+              "duration": 323699
+            },
+            "line": 65,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:172"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the cancelbutton",
+            "result": {
+              "status": "passed",
+              "duration": 126800
+            },
+            "line": 66,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:179"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user gets no change back",
+            "result": {
+              "status": "passed",
+              "duration": 206900
+            },
+            "line": 67,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:184"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "no money is deducted from the card",
+            "result": {
+              "status": "passed",
+              "duration": 105200
+            },
+            "line": 68,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:188"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 1555272600,
+              "error_message": "Error: Server terminated early with status 1\n    at C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-webdriver\\remote\\index.js:252:52\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\nFrom: Task: WebDriver.createSession()\n    at Function.createSession (C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-webdriver\\lib\\webdriver.js:769:24)\n    at Function.createSession (C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-webdriver\\phantomjs.js:220:41)\n    at createDriver (C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-webdriver\\index.js:170:33)\n    at Builder.build (C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-webdriver\\index.js:657:16)\n    at new module.exports (C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\phantomDriver.js:18:8)\n    at getDriverInstance (C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:44:22)\n    at C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "",
+    "tags": [],
+    "uri": "C:/Users/jitma/Desktop/Coffee-machine/features/money_Interactions.feature"
+  },
+  {
+    "description": "    As an employee in charge of maintaining the coffe machine\n    I want to be able to refill the components in the coffee\n    To make sure that we can get the beverages",
+    "elements": [
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 79201
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that I have opened the lid to the deposit",
+            "result": {
+              "status": "passed",
+              "duration": 214799
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:196"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the sugar deposit contains 0",
+            "result": {
+              "status": "passed",
+              "duration": 117001
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:212"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I put in 600 in the sugar deposit",
+            "result": {
+              "status": "passed",
+              "duration": 143800
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:221"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I close the lid of the deposit",
+            "result": {
+              "status": "passed",
+              "duration": 102001
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:228"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should have 600 in the sugar deposit",
+            "result": {
+              "status": "passed",
+              "duration": 93000
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:233"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2073536100
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
       {
         "id": ";",
         "keyword": "Scenario",
@@ -14,7 +1465,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 867800
+              "duration": 105001
             },
             "line": 7,
             "match": {
@@ -24,79 +1475,66 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "there is water available",
+            "name": "that I have opened the lid to the deposit",
             "result": {
               "status": "passed",
-              "duration": 180000
+              "duration": 119900
             },
             "line": 8,
             "match": {
-              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:312"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user has paid enough money",
-            "result": {
-              "status": "passed",
-              "duration": 405299
-            },
-            "line": 9,
-            "match": {
-              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:320"
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:196"
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "that the user has selected kaffemjolksocker",
+            "name": "that the sugar deposit contains 200",
             "result": {
               "status": "passed",
-              "duration": 229400
+              "duration": 113801
             },
-            "line": 12,
+            "line": 11,
             "match": {
-              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:326"
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:212"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "there is enough components for kaffemjolksocker",
+            "name": "I put in 50 in the sugar deposit",
             "result": {
               "status": "passed",
-              "duration": 363900
+              "duration": 88301
             },
-            "line": 13,
+            "line": 12,
             "match": {
-              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:336"
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:221"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "the user presses the startbutton",
+            "name": "I close the lid of the deposit",
             "result": {
               "status": "passed",
-              "duration": 182700
+              "duration": 85801
             },
-            "line": 14,
+            "line": 13,
             "match": {
-              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:347"
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:228"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the user recieves 1 cup of beverage",
+            "name": "I should have 250 in the sugar deposit",
             "result": {
               "status": "passed",
-              "duration": 211000
+              "duration": 85500
             },
-            "line": 15,
+            "line": 14,
             "match": {
-              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:352"
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:233"
             }
           },
           {
@@ -104,7 +1542,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2181557200
+              "duration": 1554360801
             },
             "hidden": true,
             "match": {
@@ -127,7 +1565,905 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 138201
+              "duration": 68900
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that I have opened the lid to the deposit",
+            "result": {
+              "status": "passed",
+              "duration": 140100
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:196"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the coffee deposit contains 10",
+            "result": {
+              "status": "passed",
+              "duration": 195900
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:238"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I put in 720 in the coffee deposit",
+            "result": {
+              "status": "passed",
+              "duration": 221800
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:245"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I close the lid of the deposit",
+            "result": {
+              "status": "passed",
+              "duration": 62501
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:228"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should have 730 in the coffee deposit",
+            "result": {
+              "status": "passed",
+              "duration": 122200
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:251"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2098504200
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 87200
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that I have opened the lid to the deposit",
+            "result": {
+              "status": "passed",
+              "duration": 101401
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:196"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the coffee deposit contains 800",
+            "result": {
+              "status": "passed",
+              "duration": 88799
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:238"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I put in 137 in the coffee deposit",
+            "result": {
+              "status": "passed",
+              "duration": 79099
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:245"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I close the lid of the deposit",
+            "result": {
+              "status": "passed",
+              "duration": 74800
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:228"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should have 937 in the coffee deposit",
+            "result": {
+              "status": "passed",
+              "duration": 60500
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:251"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1555550399
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 68900
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that I have opened the lid to the deposit",
+            "result": {
+              "status": "passed",
+              "duration": 143000
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:196"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the milk deposit contains 53",
+            "result": {
+              "status": "passed",
+              "duration": 243101
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:256"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I put in 500 in the milk deposit",
+            "result": {
+              "status": "passed",
+              "duration": 157899
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:263"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I close the lid of the deposit",
+            "result": {
+              "status": "passed",
+              "duration": 58199
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:228"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should have 553 in the milk deposit",
+            "result": {
+              "status": "passed",
+              "duration": 145100
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:269"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2080550100
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 77100
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that I have opened the lid to the deposit",
+            "result": {
+              "status": "passed",
+              "duration": 119201
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:196"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the milk deposit contains 40",
+            "result": {
+              "status": "passed",
+              "duration": 73400
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:256"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I put in 623 in the milk deposit",
+            "result": {
+              "status": "passed",
+              "duration": 81000
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:263"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I close the lid of the deposit",
+            "result": {
+              "status": "passed",
+              "duration": 59499
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:228"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should have 663 in the milk deposit",
+            "result": {
+              "status": "passed",
+              "duration": 56600
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:269"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1552979900
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 67000
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that I have opened the lid to the deposit",
+            "result": {
+              "status": "passed",
+              "duration": 91800
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:196"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the chocolate deposit contains 250",
+            "result": {
+              "status": "passed",
+              "duration": 210100
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:274"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I put in 378 in the chocolate deposit",
+            "result": {
+              "status": "passed",
+              "duration": 204001
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:281"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I close the lid of the deposit",
+            "result": {
+              "status": "passed",
+              "duration": 60100
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:228"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should have 628 in the chocolate deposit",
+            "result": {
+              "status": "passed",
+              "duration": 104000
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:287"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1552173899
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 70201
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that I have opened the lid to the deposit",
+            "result": {
+              "status": "passed",
+              "duration": 122400
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:196"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the chocolate deposit contains 0",
+            "result": {
+              "status": "passed",
+              "duration": 96601
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:274"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I put in 925 in the chocolate deposit",
+            "result": {
+              "status": "passed",
+              "duration": 84000
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:281"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I close the lid of the deposit",
+            "result": {
+              "status": "passed",
+              "duration": 113600
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:228"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should have 925 in the chocolate deposit",
+            "result": {
+              "status": "passed",
+              "duration": 96701
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:287"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2056406700
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 67199
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that I have opened the lid to the deposit",
+            "result": {
+              "status": "passed",
+              "duration": 102900
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:196"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the cup deposit contains 20",
+            "result": {
+              "status": "passed",
+              "duration": 244300
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:292"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I put in 24 in the cup deposit",
+            "result": {
+              "status": "passed",
+              "duration": 227000
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:299"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I close the lid of the deposit",
+            "result": {
+              "status": "passed",
+              "duration": 59300
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:228"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should have 30 in the cup deposit",
+            "result": {
+              "status": "passed",
+              "duration": 126700
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:305"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2086988099
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 82701
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that I have opened the lid to the deposit",
+            "result": {
+              "status": "passed",
+              "duration": 200000
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:196"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the cup deposit contains 10",
+            "result": {
+              "status": "passed",
+              "duration": 153500
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:292"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I put in 72 in the cup deposit",
+            "result": {
+              "status": "passed",
+              "duration": 159801
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:299"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I close the lid of the deposit",
+            "result": {
+              "status": "passed",
+              "duration": 58200
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:228"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should have 40 in the cup deposit",
+            "result": {
+              "status": "passed",
+              "duration": 55701
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:305"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2078286600
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";user-tries-to-buy-a-beverage-while-the-lid-of-a-compartment-is-open",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "User tries to buy a beverage while the lid of a compartment is open",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 64300
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that I have opened the lid to the deposit",
+            "result": {
+              "status": "passed",
+              "duration": 86101
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:196"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the lid to a compartment is open",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 35
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user have selected a beverage",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 36
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the startbutton",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:346"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "an error message should appear to close the lid",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 38
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2078019200
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "",
+    "tags": [],
+    "uri": "C:/Users/jitma/Desktop/Coffee-machine/features/refilling_Interactions.feature"
+  },
+  {
+    "description": "As a coffee buyer\nI want to be able to pick different types of beverages and get the beverage i picked\nBecause my taste of beverage varies from day to day",
+    "elements": [
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 80599
             },
             "line": 7,
             "match": {
@@ -140,7 +2476,7 @@
             "name": "there is water available",
             "result": {
               "status": "passed",
-              "duration": 106400
+              "duration": 169001
             },
             "line": 8,
             "match": {
@@ -153,7 +2489,120 @@
             "name": "the user has paid enough money",
             "result": {
               "status": "passed",
-              "duration": 134000
+              "duration": 103100
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:320"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected kaffemjolksocker",
+            "result": {
+              "status": "passed",
+              "duration": 187600
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:326"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there is enough components for kaffemjolksocker",
+            "result": {
+              "status": "passed",
+              "duration": 134100
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:335"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the startbutton",
+            "result": {
+              "status": "passed",
+              "duration": 110600
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:346"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 1 cup of beverage",
+            "result": {
+              "status": "passed",
+              "duration": 98201
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:351"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1555440800
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 71401
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there is water available",
+            "result": {
+              "status": "passed",
+              "duration": 113201
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:312"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user has paid enough money",
+            "result": {
+              "status": "passed",
+              "duration": 98200
             },
             "line": 9,
             "match": {
@@ -187,7 +2636,7 @@
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:347"
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:346"
             }
           },
           {
@@ -199,7 +2648,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:352"
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:351"
             }
           },
           {
@@ -207,7 +2656,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2095348400
+              "duration": 2082083400
             },
             "hidden": true,
             "match": {
@@ -230,7 +2679,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 110600
+              "duration": 98900
             },
             "line": 7,
             "match": {
@@ -243,7 +2692,7 @@
             "name": "there is water available",
             "result": {
               "status": "passed",
-              "duration": 141700
+              "duration": 93100
             },
             "line": 8,
             "match": {
@@ -256,7 +2705,7 @@
             "name": "the user has paid enough money",
             "result": {
               "status": "passed",
-              "duration": 161901
+              "duration": 95200
             },
             "line": 9,
             "match": {
@@ -290,7 +2739,7 @@
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:347"
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:346"
             }
           },
           {
@@ -302,7 +2751,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:352"
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:351"
             }
           },
           {
@@ -310,7 +2759,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2062622400
+              "duration": 2079248500
             },
             "hidden": true,
             "match": {
@@ -333,7 +2782,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 122900
+              "duration": 66501
             },
             "line": 7,
             "match": {
@@ -346,7 +2795,7 @@
             "name": "there is water available",
             "result": {
               "status": "passed",
-              "duration": 149600
+              "duration": 63199
             },
             "line": 8,
             "match": {
@@ -359,7 +2808,7 @@
             "name": "the user has paid enough money",
             "result": {
               "status": "passed",
-              "duration": 96200
+              "duration": 90500
             },
             "line": 9,
             "match": {
@@ -393,7 +2842,7 @@
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:347"
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:346"
             }
           },
           {
@@ -405,7 +2854,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:352"
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:351"
             }
           },
           {
@@ -413,7 +2862,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2099839400
+              "duration": 1553358400
             },
             "hidden": true,
             "match": {
@@ -436,7 +2885,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 176500
+              "duration": 73699
             },
             "line": 7,
             "match": {
@@ -449,7 +2898,7 @@
             "name": "there is water available",
             "result": {
               "status": "passed",
-              "duration": 117900
+              "duration": 67501
             },
             "line": 8,
             "match": {
@@ -462,7 +2911,7 @@
             "name": "the user has paid enough money",
             "result": {
               "status": "passed",
-              "duration": 172800
+              "duration": 108801
             },
             "line": 9,
             "match": {
@@ -496,7 +2945,7 @@
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:347"
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:346"
             }
           },
           {
@@ -508,7 +2957,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:352"
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:351"
             }
           },
           {
@@ -516,7 +2965,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2086298799
+              "duration": 1554291599
             },
             "hidden": true,
             "match": {
@@ -539,7 +2988,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 130800
+              "duration": 66001
             },
             "line": 7,
             "match": {
@@ -552,7 +3001,7 @@
             "name": "there is water available",
             "result": {
               "status": "passed",
-              "duration": 127601
+              "duration": 112500
             },
             "line": 8,
             "match": {
@@ -565,7 +3014,7 @@
             "name": "the user has paid enough money",
             "result": {
               "status": "passed",
-              "duration": 110201
+              "duration": 107200
             },
             "line": 9,
             "match": {
@@ -599,7 +3048,7 @@
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:347"
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:346"
             }
           },
           {
@@ -611,7 +3060,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:352"
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:351"
             }
           },
           {
@@ -619,7 +3068,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2099024200
+              "duration": 1568209801
             },
             "hidden": true,
             "match": {
@@ -642,7 +3091,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 117400
+              "duration": 113700
             },
             "line": 7,
             "match": {
@@ -655,7 +3104,7 @@
             "name": "there is water available",
             "result": {
               "status": "passed",
-              "duration": 98800
+              "duration": 104999
             },
             "line": 8,
             "match": {
@@ -668,7 +3117,7 @@
             "name": "the user has paid enough money",
             "result": {
               "status": "passed",
-              "duration": 132401
+              "duration": 121900
             },
             "line": 9,
             "match": {
@@ -702,7 +3151,7 @@
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:347"
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:346"
             }
           },
           {
@@ -714,7 +3163,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:352"
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:351"
             }
           },
           {
@@ -722,7 +3171,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2061714999
+              "duration": 2087788300
             },
             "hidden": true,
             "match": {
@@ -745,7 +3194,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 91600
+              "duration": 113100
             },
             "line": 7,
             "match": {
@@ -758,7 +3207,7 @@
             "name": "there is water available",
             "result": {
               "status": "passed",
-              "duration": 156400
+              "duration": 75199
             },
             "line": 8,
             "match": {
@@ -771,7 +3220,7 @@
             "name": "the user has paid enough money",
             "result": {
               "status": "passed",
-              "duration": 197401
+              "duration": 116700
             },
             "line": 9,
             "match": {
@@ -805,7 +3254,7 @@
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:347"
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:346"
             }
           },
           {
@@ -817,7 +3266,7 @@
             },
             "line": 15,
             "match": {
-              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:352"
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:351"
             }
           },
           {
@@ -825,7 +3274,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2084737800
+              "duration": 1553243400
             },
             "hidden": true,
             "match": {
@@ -848,7 +3297,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 185999
+              "duration": 65800
             },
             "line": 7,
             "match": {
@@ -861,7 +3310,7 @@
             "name": "there is water available",
             "result": {
               "status": "passed",
-              "duration": 140599
+              "duration": 105399
             },
             "line": 8,
             "match": {
@@ -874,7 +3323,7 @@
             "name": "the user has paid enough money",
             "result": {
               "status": "passed",
-              "duration": 116801
+              "duration": 80100
             },
             "line": 9,
             "match": {
@@ -931,7 +3380,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2131853000
+              "duration": 2072300500
             },
             "hidden": true,
             "match": {
@@ -954,7 +3403,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 81899
+              "duration": 70100
             },
             "line": 7,
             "match": {
@@ -967,7 +3416,7 @@
             "name": "there is water available",
             "result": {
               "status": "passed",
-              "duration": 89299
+              "duration": 112601
             },
             "line": 8,
             "match": {
@@ -980,7 +3429,7 @@
             "name": "the user has paid enough money",
             "result": {
               "status": "passed",
-              "duration": 168000
+              "duration": 89701
             },
             "line": 9,
             "match": {
@@ -1037,7 +3486,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2078251700
+              "duration": 2078183899
             },
             "hidden": true,
             "match": {
@@ -1060,7 +3509,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 102199
+              "duration": 1324600
             },
             "line": 7,
             "match": {
@@ -1073,7 +3522,7 @@
             "name": "there is water available",
             "result": {
               "status": "passed",
-              "duration": 134899
+              "duration": 82799
             },
             "line": 8,
             "match": {
@@ -1086,7 +3535,7 @@
             "name": "the user has paid enough money",
             "result": {
               "status": "passed",
-              "duration": 174399
+              "duration": 106900
             },
             "line": 9,
             "match": {
@@ -1143,7 +3592,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2083790499
+              "duration": 2080874900
             },
             "hidden": true,
             "match": {
@@ -1166,7 +3615,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 79100
+              "duration": 68900
             },
             "line": 7,
             "match": {
@@ -1179,7 +3628,7 @@
             "name": "there is water available",
             "result": {
               "status": "passed",
-              "duration": 127800
+              "duration": 110900
             },
             "line": 8,
             "match": {
@@ -1192,7 +3641,7 @@
             "name": "the user has paid enough money",
             "result": {
               "status": "passed",
-              "duration": 150301
+              "duration": 74599
             },
             "line": 9,
             "match": {
@@ -1249,7 +3698,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2083028900
+              "duration": 2075498400
             },
             "hidden": true,
             "match": {
@@ -1272,7 +3721,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 83700
+              "duration": 67801
             },
             "line": 7,
             "match": {
@@ -1285,7 +3734,7 @@
             "name": "there is water available",
             "result": {
               "status": "passed",
-              "duration": 115000
+              "duration": 89901
             },
             "line": 8,
             "match": {
@@ -1298,7 +3747,7 @@
             "name": "the user has paid enough money",
             "result": {
               "status": "passed",
-              "duration": 100401
+              "duration": 77500
             },
             "line": 9,
             "match": {
@@ -1337,7 +3786,116 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2073078200
+              "duration": 1552776500
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";user-presses-the-cancelbutton-within-three-seconds-from-the-moment-the-machine-started-brewing",
+        "keyword": "Scenario",
+        "line": 49,
+        "name": "User presses the cancelbutton within three seconds from the moment the machine started brewing",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 79801
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there is water available",
+            "result": {
+              "status": "passed",
+              "duration": 91400
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:312"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user has paid enough money",
+            "result": {
+              "status": "passed",
+              "duration": 77000
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:320"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has pressed startbutton",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 50
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the cancelbutton",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:179"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "it has been less than three seconds since machine started brewing",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 52
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the machine stops brewing",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 53
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "goes back to the screen displayed before the user pressed start",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 54
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2085445400
             },
             "hidden": true,
             "match": {
@@ -1354,6 +3912,984 @@
     "line": 1,
     "name": "",
     "tags": [],
-    "uri": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\features\\selection_Successful_Interactions.feature"
+    "uri": "C:/Users/jitma/Desktop/Coffee-machine/features/selection_Successful_Interactions.feature"
+  },
+  {
+    "description": "As a user that selects a beverage that misses ingredients\nthen the machine should not brew that beverage\nbecause something does not come from nothing",
+    "elements": [
+      {
+        "id": ";user-buys-a-beverage-with-missing-ingredients",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "user buys a beverage with missing ingredients",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 65000
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected kaffesockermjolk",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there is not enough kaffe",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the startbutton",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:346"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the machine does not brew",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "displays: 'Not enough coffee, refill'",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2076634901
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";user-buys-a-beverage-with-missing-ingredients",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "user buys a beverage with missing ingredients",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 368000
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected kaffesocker",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there is not enough socker",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the startbutton",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:346"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the machine does not brew",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "displays: 'Not enough sugar, refill'",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1553681400
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";user-buys-a-beverage-with-missing-ingredients",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "user buys a beverage with missing ingredients",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 98900
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected kaffemjolk",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there is not enough mjolk",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the startbutton",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:346"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the machine does not brew",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "displays: 'Not enough milk, refill'",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1556527699
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";user-buys-a-beverage-with-missing-ingredients",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "user buys a beverage with missing ingredients",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 67501
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected kaffe",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there is not enough vatten",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the startbutton",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:346"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the machine does not brew",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "displays: 'No water supply connected, call maintenance'",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1557769200
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";user-buys-a-beverage-with-missing-ingredients",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "user buys a beverage with missing ingredients",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 63200
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected te",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there is not enough cups",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the startbutton",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:346"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the machine does not brew",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "displays: 'No more cups, refill'",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2077020100
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";user-buys-a-beverage-with-missing-ingredients",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "user buys a beverage with missing ingredients",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 94600
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected choklad",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there is not enough choklad",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the startbutton",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:346"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the machine does not brew",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "displays: 'Not enough chocolate, refill'",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2080860400
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";user-buys-a-beverage-with-missing-ingredients",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "user buys a beverage with missing ingredients",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 78700
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected latte",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there is not enough mjolk",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the startbutton",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:346"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the machine does not brew",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "displays: 'Not enough milk, refill'",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1561514599
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";user-buys-a-beverage-with-missing-ingredients",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "user buys a beverage with missing ingredients",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 64800
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected kanna",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "there is not enough kaffe",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the startbutton",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:346"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the machine does not brew",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "displays: 'Not enough coffee, refill'",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2073580600
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";the-user-tries-to-buy-a-beverage-when-the-catch-spillage-compartment-is-full",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "the user tries to buy a beverage when the catch-spillage compartment is full",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 66401
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the catch-spill compartment is full",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user has selected a beverage",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 31
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the startbutton",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:346"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "no beverage gets brewed",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "an error message is displayed: 'Empty the spillage compartment'",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 34
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1552693001
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";user-presses-the-cancelbutton-after-three-seconds-from-the-moment-the-machine-started-brewing",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "User presses the cancelbutton after three seconds from the moment the machine started brewing",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 71401
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has pressed startbutton",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 37
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses the cancelbutton",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:179"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "it has been more than three seconds since machine started brewing",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 39
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the machine continues brewing",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 40
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user gets the beverage",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2064253200
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";the-user-unplugs-the-water-during-the-brewing-process",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "The user unplugs the water during the brewing process",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 87900
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the user has selected a beverage",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 44
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "has pressed the startbutton",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 45
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user disconnects the water",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "an error appears",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 47
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2056149799
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";user-presses-two-buttons-at-the-same-time",
+        "keyword": "Scenario",
+        "line": 49,
+        "name": "User presses two buttons at the same time",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 67401
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 87301
+            },
+            "line": 50,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\step-definitions\\coffee-machine.js:47"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user presses two buttons at the same time",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 51
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "only one of them should light up (Prio list: coffee>latte>chocolate>te>milk>sugar>kanna)",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 52
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2062880501
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\jitma\\Desktop\\Coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "",
+    "tags": [],
+    "uri": "C:/Users/jitma/Desktop/Coffee-machine/features/selection_Unsuccessful_Interactions.feature"
   }
 ]

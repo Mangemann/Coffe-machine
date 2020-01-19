@@ -25,3 +25,14 @@ Feature:
             | chocolate    | 0          | 925          | 925       |
             | cup          | 20         | 24           | 30        |
             | cup          | 10         | 72           | 40        |
+
+
+    #comment no use in trying to create tests making sure you cant refill
+    #comment things in the wrong compartments, cause i do not know how that would be possible
+
+    Scenario: User tries to buy a beverage while the lid of a compartment is open
+
+    Given that the lid to a compartment is open
+    And the user have selected a beverage
+    When the user presses the startbutton
+    Then an error message should appear to close the lid

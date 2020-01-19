@@ -1,35 +1,481 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name=";" tests="7" failures="0" skipped="0">
+    <testsuite name=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" tests="10" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Users\jitma\Desktop\Coffee-machine\features\selection_Successful_Interactions.feature">
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/money_Interactions.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.0008678">
+        <testcase name="Given that the machine is plugged in" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000900499">
         </testcase>
-        <testcase name="And there is water available" classname=";" time="0.00018">
+        <testcase name="When I have inserted a 10 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0002663">
         </testcase>
-        <testcase name="And the user has paid enough money" classname=";" time="0.000405299">
+        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000184699">
         </testcase>
-        <testcase name="Given that the user has selected kaffemjolksocker" classname=";" time="0.0002294">
+        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000108301">
         </testcase>
-        <testcase name="And there is enough components for kaffemjolksocker" classname=";" time="0.0003639">
+        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000107">
         </testcase>
-        <testcase name="When the user presses the startbutton" classname=";" time="0.0001827">
+        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000925">
         </testcase>
-        <testcase name="Then the user recieves 1 cup of beverage" classname=";" time="0.000211">
+        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000978">
+        </testcase>
+        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000094901">
+        </testcase>
+        <testcase name="And I press the startbutton" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0001935">
+        </testcase>
+        <testcase name="Then i should recieve 0kr in coins back" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0002449">
+        </testcase>
+    </testsuite>
+    <testsuite name=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" tests="10" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/money_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0001319">
+        </testcase>
+        <testcase name="When I have inserted a 1 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0001002">
+        </testcase>
+        <testcase name="And a 1 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0001126">
+        </testcase>
+        <testcase name="And a 1 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000096801">
+        </testcase>
+        <testcase name="And a 2 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000074999">
+        </testcase>
+        <testcase name="And a 2 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000079499">
+        </testcase>
+        <testcase name="And a 2 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0001105">
+        </testcase>
+        <testcase name="And a 2 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000073899">
+        </testcase>
+        <testcase name="And I press the startbutton" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000574">
+        </testcase>
+        <testcase name="Then i should recieve 1kr in coins back" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000074701">
+        </testcase>
+    </testsuite>
+    <testsuite name=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" tests="10" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/money_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000949">
+        </testcase>
+        <testcase name="When I have inserted a 5 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0001227">
+        </testcase>
+        <testcase name="And a 2 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000095001">
+        </testcase>
+        <testcase name="And a 2 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000678">
+        </testcase>
+        <testcase name="And a 2 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000609">
+        </testcase>
+        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000061">
+        </testcase>
+        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000066101">
+        </testcase>
+        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000062199">
+        </testcase>
+        <testcase name="And I press the startbutton" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000572">
+        </testcase>
+        <testcase name="Then i should recieve 1kr in coins back" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000070601">
+        </testcase>
+    </testsuite>
+    <testsuite name=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" tests="10" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/money_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000069299">
+        </testcase>
+        <testcase name="When I have inserted a 10 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000105401">
+        </testcase>
+        <testcase name="And a 5 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000105101">
+        </testcase>
+        <testcase name="And a 5 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000774">
+        </testcase>
+        <testcase name="And a 2 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000679">
+        </testcase>
+        <testcase name="And a 1 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000618">
+        </testcase>
+        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000603">
+        </testcase>
+        <testcase name="And a 0 coin" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000569">
+        </testcase>
+        <testcase name="And I press the startbutton" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.0000504">
+        </testcase>
+        <testcase name="Then i should recieve 13kr in coins back" classname=";the-user-inserts-a-lot-of-different-coins-and-wants-the-correct-change" time="0.000102199">
+        </testcase>
+    </testsuite>
+    <testsuite name=";the-user-inserts-something-that-is-not-a-valid-coin-into-the-coinsocket" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/money_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";the-user-inserts-something-that-is-not-a-valid-coin-into-the-coinsocket" time="0.0000769">
+        </testcase>
+        <testcase name="When I insert something that is not a valid coin into the coinsocket" classname=";the-user-inserts-something-that-is-not-a-valid-coin-into-the-coinsocket" time="0.0001827">
+        </testcase>
+        <testcase name="Then I should get an error message" classname=";the-user-inserts-something-that-is-not-a-valid-coin-into-the-coinsocket" time="0.0002119">
+        </testcase>
+    </testsuite>
+    <testsuite name=";the-user-puts-in-a-coin,-and-then-pays-by-card" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/money_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.0001026">
+        </testcase>
+        <testcase name="When I insert a 5kr coin" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.000285499">
+        </testcase>
+        <testcase name="And I pay 10kr with card" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.0002686">
+        </testcase>
+        <testcase name="And i press the startbutton" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.000125">
+        </testcase>
+        <testcase name="Then i should recieve 5kr in change" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.000110301">
+        </testcase>
+    </testsuite>
+    <testsuite name=";the-user-puts-in-a-coin,-and-then-pays-by-card" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/money_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.0000762">
+        </testcase>
+        <testcase name="When I insert a 2kr coin" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.0001128">
+        </testcase>
+        <testcase name="And I pay 10kr with card" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.000096501">
+        </testcase>
+        <testcase name="And i press the startbutton" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.0000626">
+        </testcase>
+        <testcase name="Then i should recieve 2kr in change" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.000059599">
+        </testcase>
+    </testsuite>
+    <testsuite name=";the-user-puts-in-a-coin,-and-then-pays-by-card" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/money_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.0000821">
+        </testcase>
+        <testcase name="When I insert a 1kr coin" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.00011">
+        </testcase>
+        <testcase name="And I pay 10kr with card" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.0001114">
+        </testcase>
+        <testcase name="And i press the startbutton" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.0000885">
+        </testcase>
+        <testcase name="Then i should recieve 1kr in change" classname=";the-user-puts-in-a-coin,-and-then-pays-by-card" time="0.0000936">
+        </testcase>
+    </testsuite>
+    <testsuite name=";the-user-pays-with-a-card-without-enough-funds-on-it" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/money_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";the-user-pays-with-a-card-without-enough-funds-on-it" time="0.000074001">
+        </testcase>
+        <testcase name="When i pay by card" classname=";the-user-pays-with-a-card-without-enough-funds-on-it" time="0.000318599">
+        </testcase>
+        <testcase name="And i do not have enough money" classname=";the-user-pays-with-a-card-without-enough-funds-on-it" time="0.0003126">
+        </testcase>
+        <testcase name="Then i should get a message that i do not have enough funds" classname=";the-user-pays-with-a-card-without-enough-funds-on-it" time="0.000097">
+        </testcase>
+    </testsuite>
+    <testsuite name=";the-user-tries-to-buy-a-coffee-without-inserting-enough-money" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/money_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";the-user-tries-to-buy-a-coffee-without-inserting-enough-money" time="0.0000691">
+        </testcase>
+        <testcase name="Given that i have not inserted enough money" classname=";the-user-tries-to-buy-a-coffee-without-inserting-enough-money" time="0.0004365">
+        </testcase>
+        <testcase name="When I press the startbutton" classname=";the-user-tries-to-buy-a-coffee-without-inserting-enough-money" time="0.0000726">
+        </testcase>
+        <testcase name="Then I should get a message that i have not inserted enough money" classname=";the-user-tries-to-buy-a-coffee-without-inserting-enough-money" time="0.0002104">
+        </testcase>
+    </testsuite>
+    <testsuite name=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/money_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" time="0.0000677">
+        </testcase>
+        <testcase name="Given that i have payed 10 kr" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" time="0.0002784">
+        </testcase>
+        <testcase name="And have not pressed the startbutton" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" time="0.0001406">
+        </testcase>
+        <testcase name="When i press the cancelbutton" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" time="0.000113201">
+        </testcase>
+        <testcase name="Then i should get 10kr back" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" time="0.000116301">
+        </testcase>
+    </testsuite>
+    <testsuite name=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/money_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" time="0.000075301">
+        </testcase>
+        <testcase name="Given that i have payed 13 kr" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" time="0.0001193">
+        </testcase>
+        <testcase name="And have not pressed the startbutton" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" time="0.000082199">
+        </testcase>
+        <testcase name="When i press the cancelbutton" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" time="0.0000731">
+        </testcase>
+        <testcase name="Then i should get 13kr back" classname=";the-user-presses-the-cancel-button-when-the-machine-is-not-brewing" time="0.0000655">
+        </testcase>
+    </testsuite>
+    <testsuite name=";user-pays-with-card,-then-presses-the-cancelbutton" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/money_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";user-pays-with-card,-then-presses-the-cancelbutton" time="0.0000744">
+        </testcase>
+        <testcase name="Given that the user has payed with card" classname=";user-pays-with-card,-then-presses-the-cancelbutton" time="0.000323699">
+        </testcase>
+        <testcase name="When the user presses the cancelbutton" classname=";user-pays-with-card,-then-presses-the-cancelbutton" time="0.0001268">
+        </testcase>
+        <testcase name="Then the user gets no change back" classname=";user-pays-with-card,-then-presses-the-cancelbutton" time="0.0002069">
+        </testcase>
+        <testcase name="And no money is deducted from the card" classname=";user-pays-with-card,-then-presses-the-cancelbutton" time="0.0001052">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/refilling_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000079201">
+        </testcase>
+        <testcase name="And that I have opened the lid to the deposit" classname=";" time="0.000214799">
+        </testcase>
+        <testcase name="Given that the sugar deposit contains 0" classname=";" time="0.000117001">
+        </testcase>
+        <testcase name="And I put in 600 in the sugar deposit" classname=";" time="0.0001438">
+        </testcase>
+        <testcase name="When I close the lid of the deposit" classname=";" time="0.000102001">
+        </testcase>
+        <testcase name="Then I should have 600 in the sugar deposit" classname=";" time="0.000093">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/refilling_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000105001">
+        </testcase>
+        <testcase name="And that I have opened the lid to the deposit" classname=";" time="0.0001199">
+        </testcase>
+        <testcase name="Given that the sugar deposit contains 200" classname=";" time="0.000113801">
+        </testcase>
+        <testcase name="And I put in 50 in the sugar deposit" classname=";" time="0.000088301">
+        </testcase>
+        <testcase name="When I close the lid of the deposit" classname=";" time="0.000085801">
+        </testcase>
+        <testcase name="Then I should have 250 in the sugar deposit" classname=";" time="0.0000855">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/refilling_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000689">
+        </testcase>
+        <testcase name="And that I have opened the lid to the deposit" classname=";" time="0.0001401">
+        </testcase>
+        <testcase name="Given that the coffee deposit contains 10" classname=";" time="0.0001959">
+        </testcase>
+        <testcase name="And I put in 720 in the coffee deposit" classname=";" time="0.0002218">
+        </testcase>
+        <testcase name="When I close the lid of the deposit" classname=";" time="0.000062501">
+        </testcase>
+        <testcase name="Then I should have 730 in the coffee deposit" classname=";" time="0.0001222">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/refilling_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000872">
+        </testcase>
+        <testcase name="And that I have opened the lid to the deposit" classname=";" time="0.000101401">
+        </testcase>
+        <testcase name="Given that the coffee deposit contains 800" classname=";" time="0.000088799">
+        </testcase>
+        <testcase name="And I put in 137 in the coffee deposit" classname=";" time="0.000079099">
+        </testcase>
+        <testcase name="When I close the lid of the deposit" classname=";" time="0.0000748">
+        </testcase>
+        <testcase name="Then I should have 937 in the coffee deposit" classname=";" time="0.0000605">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/refilling_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000689">
+        </testcase>
+        <testcase name="And that I have opened the lid to the deposit" classname=";" time="0.000143">
+        </testcase>
+        <testcase name="Given that the milk deposit contains 53" classname=";" time="0.000243101">
+        </testcase>
+        <testcase name="And I put in 500 in the milk deposit" classname=";" time="0.000157899">
+        </testcase>
+        <testcase name="When I close the lid of the deposit" classname=";" time="0.000058199">
+        </testcase>
+        <testcase name="Then I should have 553 in the milk deposit" classname=";" time="0.0001451">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/refilling_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000771">
+        </testcase>
+        <testcase name="And that I have opened the lid to the deposit" classname=";" time="0.000119201">
+        </testcase>
+        <testcase name="Given that the milk deposit contains 40" classname=";" time="0.0000734">
+        </testcase>
+        <testcase name="And I put in 623 in the milk deposit" classname=";" time="0.000081">
+        </testcase>
+        <testcase name="When I close the lid of the deposit" classname=";" time="0.000059499">
+        </testcase>
+        <testcase name="Then I should have 663 in the milk deposit" classname=";" time="0.0000566">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/refilling_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000067">
+        </testcase>
+        <testcase name="And that I have opened the lid to the deposit" classname=";" time="0.0000918">
+        </testcase>
+        <testcase name="Given that the chocolate deposit contains 250" classname=";" time="0.0002101">
+        </testcase>
+        <testcase name="And I put in 378 in the chocolate deposit" classname=";" time="0.000204001">
+        </testcase>
+        <testcase name="When I close the lid of the deposit" classname=";" time="0.0000601">
+        </testcase>
+        <testcase name="Then I should have 628 in the chocolate deposit" classname=";" time="0.000104">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/refilling_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000070201">
+        </testcase>
+        <testcase name="And that I have opened the lid to the deposit" classname=";" time="0.0001224">
+        </testcase>
+        <testcase name="Given that the chocolate deposit contains 0" classname=";" time="0.000096601">
+        </testcase>
+        <testcase name="And I put in 925 in the chocolate deposit" classname=";" time="0.000084">
+        </testcase>
+        <testcase name="When I close the lid of the deposit" classname=";" time="0.0001136">
+        </testcase>
+        <testcase name="Then I should have 925 in the chocolate deposit" classname=";" time="0.000096701">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/refilling_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000067199">
+        </testcase>
+        <testcase name="And that I have opened the lid to the deposit" classname=";" time="0.0001029">
+        </testcase>
+        <testcase name="Given that the cup deposit contains 20" classname=";" time="0.0002443">
+        </testcase>
+        <testcase name="And I put in 24 in the cup deposit" classname=";" time="0.000227">
+        </testcase>
+        <testcase name="When I close the lid of the deposit" classname=";" time="0.0000593">
+        </testcase>
+        <testcase name="Then I should have 30 in the cup deposit" classname=";" time="0.0001267">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/refilling_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000082701">
+        </testcase>
+        <testcase name="And that I have opened the lid to the deposit" classname=";" time="0.0002">
+        </testcase>
+        <testcase name="Given that the cup deposit contains 10" classname=";" time="0.0001535">
+        </testcase>
+        <testcase name="And I put in 72 in the cup deposit" classname=";" time="0.000159801">
+        </testcase>
+        <testcase name="When I close the lid of the deposit" classname=";" time="0.0000582">
+        </testcase>
+        <testcase name="Then I should have 40 in the cup deposit" classname=";" time="0.000055701">
+        </testcase>
+    </testsuite>
+    <testsuite name=";user-tries-to-buy-a-beverage-while-the-lid-of-a-compartment-is-open" tests="6" failures="0" skipped="4">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/refilling_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";user-tries-to-buy-a-beverage-while-the-lid-of-a-compartment-is-open" time="0.0000643">
+        </testcase>
+        <testcase name="And that I have opened the lid to the deposit" classname=";user-tries-to-buy-a-beverage-while-the-lid-of-a-compartment-is-open" time="0.000086101">
+        </testcase>
+        <testcase name="Given that the lid to a compartment is open" classname=";user-tries-to-buy-a-beverage-while-the-lid-of-a-compartment-is-open">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the user have selected a beverage" classname=";user-tries-to-buy-a-beverage-while-the-lid-of-a-compartment-is-open">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When the user presses the startbutton" classname=";user-tries-to-buy-a-beverage-while-the-lid-of-a-compartment-is-open">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then an error message should appear to close the lid" classname=";user-tries-to-buy-a-beverage-while-the-lid-of-a-compartment-is-open">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="7" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/selection_Successful_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000080599">
+        </testcase>
+        <testcase name="And there is water available" classname=";" time="0.000169001">
+        </testcase>
+        <testcase name="And the user has paid enough money" classname=";" time="0.0001031">
+        </testcase>
+        <testcase name="Given that the user has selected kaffemjolksocker" classname=";" time="0.0001876">
+        </testcase>
+        <testcase name="And there is enough components for kaffemjolksocker" classname=";" time="0.0001341">
+        </testcase>
+        <testcase name="When the user presses the startbutton" classname=";" time="0.0001106">
+        </testcase>
+        <testcase name="Then the user recieves 1 cup of beverage" classname=";" time="0.000098201">
         </testcase>
     </testsuite>
     <testsuite name=";" tests="7" failures="0" skipped="4">
         <properties>
-            <property name="URI" value="C:\Users\jitma\Desktop\Coffee-machine\features\selection_Successful_Interactions.feature">
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/selection_Successful_Interactions.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.000138201">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000071401">
         </testcase>
-        <testcase name="And there is water available" classname=";" time="0.0001064">
+        <testcase name="And there is water available" classname=";" time="0.000113201">
         </testcase>
-        <testcase name="And the user has paid enough money" classname=";" time="0.000134">
+        <testcase name="And the user has paid enough money" classname=";" time="0.0000982">
         </testcase>
         <testcase name="Given that the user has selected kaffemjolk" classname=";">
             <skipped message="">
@@ -50,14 +496,14 @@
     </testsuite>
     <testsuite name=";" tests="7" failures="0" skipped="4">
         <properties>
-            <property name="URI" value="C:\Users\jitma\Desktop\Coffee-machine\features\selection_Successful_Interactions.feature">
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/selection_Successful_Interactions.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.0001106">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000989">
         </testcase>
-        <testcase name="And there is water available" classname=";" time="0.0001417">
+        <testcase name="And there is water available" classname=";" time="0.0000931">
         </testcase>
-        <testcase name="And the user has paid enough money" classname=";" time="0.000161901">
+        <testcase name="And the user has paid enough money" classname=";" time="0.0000952">
         </testcase>
         <testcase name="Given that the user has selected kaffesocker" classname=";">
             <skipped message="">
@@ -78,14 +524,14 @@
     </testsuite>
     <testsuite name=";" tests="7" failures="0" skipped="4">
         <properties>
-            <property name="URI" value="C:\Users\jitma\Desktop\Coffee-machine\features\selection_Successful_Interactions.feature">
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/selection_Successful_Interactions.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.0001229">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000066501">
         </testcase>
-        <testcase name="And there is water available" classname=";" time="0.0001496">
+        <testcase name="And there is water available" classname=";" time="0.000063199">
         </testcase>
-        <testcase name="And the user has paid enough money" classname=";" time="0.0000962">
+        <testcase name="And the user has paid enough money" classname=";" time="0.0000905">
         </testcase>
         <testcase name="Given that the user has selected kaffe" classname=";">
             <skipped message="">
@@ -106,14 +552,14 @@
     </testsuite>
     <testsuite name=";" tests="7" failures="0" skipped="4">
         <properties>
-            <property name="URI" value="C:\Users\jitma\Desktop\Coffee-machine\features\selection_Successful_Interactions.feature">
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/selection_Successful_Interactions.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.0001765">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000073699">
         </testcase>
-        <testcase name="And there is water available" classname=";" time="0.0001179">
+        <testcase name="And there is water available" classname=";" time="0.000067501">
         </testcase>
-        <testcase name="And the user has paid enough money" classname=";" time="0.0001728">
+        <testcase name="And the user has paid enough money" classname=";" time="0.000108801">
         </testcase>
         <testcase name="Given that the user has selected latte" classname=";">
             <skipped message="">
@@ -134,14 +580,14 @@
     </testsuite>
     <testsuite name=";" tests="7" failures="0" skipped="4">
         <properties>
-            <property name="URI" value="C:\Users\jitma\Desktop\Coffee-machine\features\selection_Successful_Interactions.feature">
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/selection_Successful_Interactions.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.0001308">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000066001">
         </testcase>
-        <testcase name="And there is water available" classname=";" time="0.000127601">
+        <testcase name="And there is water available" classname=";" time="0.0001125">
         </testcase>
-        <testcase name="And the user has paid enough money" classname=";" time="0.000110201">
+        <testcase name="And the user has paid enough money" classname=";" time="0.0001072">
         </testcase>
         <testcase name="Given that the user has selected te" classname=";">
             <skipped message="">
@@ -162,14 +608,14 @@
     </testsuite>
     <testsuite name=";" tests="7" failures="0" skipped="4">
         <properties>
-            <property name="URI" value="C:\Users\jitma\Desktop\Coffee-machine\features\selection_Successful_Interactions.feature">
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/selection_Successful_Interactions.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.0001174">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.0001137">
         </testcase>
-        <testcase name="And there is water available" classname=";" time="0.0000988">
+        <testcase name="And there is water available" classname=";" time="0.000104999">
         </testcase>
-        <testcase name="And the user has paid enough money" classname=";" time="0.000132401">
+        <testcase name="And the user has paid enough money" classname=";" time="0.0001219">
         </testcase>
         <testcase name="Given that the user has selected choklad" classname=";">
             <skipped message="">
@@ -190,14 +636,14 @@
     </testsuite>
     <testsuite name=";" tests="7" failures="0" skipped="4">
         <properties>
-            <property name="URI" value="C:\Users\jitma\Desktop\Coffee-machine\features\selection_Successful_Interactions.feature">
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/selection_Successful_Interactions.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000916">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.0001131">
         </testcase>
-        <testcase name="And there is water available" classname=";" time="0.0001564">
+        <testcase name="And there is water available" classname=";" time="0.000075199">
         </testcase>
-        <testcase name="And the user has paid enough money" classname=";" time="0.000197401">
+        <testcase name="And the user has paid enough money" classname=";" time="0.0001167">
         </testcase>
         <testcase name="Given that the user has selected kanna" classname=";">
             <skipped message="">
@@ -218,14 +664,14 @@
     </testsuite>
     <testsuite name=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" tests="8" failures="0" skipped="5">
         <properties>
-            <property name="URI" value="C:\Users\jitma\Desktop\Coffee-machine\features\selection_Successful_Interactions.feature">
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/selection_Successful_Interactions.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" time="0.000185999">
+        <testcase name="Given that the machine is plugged in" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" time="0.0000658">
         </testcase>
-        <testcase name="And there is water available" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" time="0.000140599">
+        <testcase name="And there is water available" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" time="0.000105399">
         </testcase>
-        <testcase name="And the user has paid enough money" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" time="0.000116801">
+        <testcase name="And the user has paid enough money" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" time="0.0000801">
         </testcase>
         <testcase name="When the user presses the kaffe button" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark">
             <skipped message="">
@@ -250,14 +696,14 @@
     </testsuite>
     <testsuite name=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" tests="8" failures="0" skipped="5">
         <properties>
-            <property name="URI" value="C:\Users\jitma\Desktop\Coffee-machine\features\selection_Successful_Interactions.feature">
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/selection_Successful_Interactions.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" time="0.000081899">
+        <testcase name="Given that the machine is plugged in" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" time="0.0000701">
         </testcase>
-        <testcase name="And there is water available" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" time="0.000089299">
+        <testcase name="And there is water available" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" time="0.000112601">
         </testcase>
-        <testcase name="And the user has paid enough money" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" time="0.000168">
+        <testcase name="And the user has paid enough money" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" time="0.000089701">
         </testcase>
         <testcase name="When the user presses the latte button" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark">
             <skipped message="">
@@ -282,14 +728,14 @@
     </testsuite>
     <testsuite name=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" tests="8" failures="0" skipped="5">
         <properties>
-            <property name="URI" value="C:\Users\jitma\Desktop\Coffee-machine\features\selection_Successful_Interactions.feature">
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/selection_Successful_Interactions.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" time="0.000102199">
+        <testcase name="Given that the machine is plugged in" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" time="0.0013246">
         </testcase>
-        <testcase name="And there is water available" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" time="0.000134899">
+        <testcase name="And there is water available" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" time="0.000082799">
         </testcase>
-        <testcase name="And the user has paid enough money" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" time="0.000174399">
+        <testcase name="And the user has paid enough money" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" time="0.0001069">
         </testcase>
         <testcase name="When the user presses the te button" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark">
             <skipped message="">
@@ -314,14 +760,14 @@
     </testsuite>
     <testsuite name=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" tests="8" failures="0" skipped="5">
         <properties>
-            <property name="URI" value="C:\Users\jitma\Desktop\Coffee-machine\features\selection_Successful_Interactions.feature">
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/selection_Successful_Interactions.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" time="0.0000791">
+        <testcase name="Given that the machine is plugged in" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" time="0.0000689">
         </testcase>
-        <testcase name="And there is water available" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" time="0.0001278">
+        <testcase name="And there is water available" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" time="0.0001109">
         </testcase>
-        <testcase name="And the user has paid enough money" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" time="0.000150301">
+        <testcase name="And the user has paid enough money" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark" time="0.000074599">
         </testcase>
         <testcase name="When the user presses the chocolate button" classname=";user-selects-a-beverage(coffee,latte,te,chocolate),-the-button-lights-up-and-the-others-goes-dark">
             <skipped message="">
@@ -346,14 +792,14 @@
     </testsuite>
     <testsuite name=";user-buys-a-coffee-with-milk-and-sugar" tests="6" failures="0" skipped="3">
         <properties>
-            <property name="URI" value="C:\Users\jitma\Desktop\Coffee-machine\features\selection_Successful_Interactions.feature">
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/selection_Successful_Interactions.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";user-buys-a-coffee-with-milk-and-sugar" time="0.0000837">
+        <testcase name="Given that the machine is plugged in" classname=";user-buys-a-coffee-with-milk-and-sugar" time="0.000067801">
         </testcase>
-        <testcase name="And there is water available" classname=";user-buys-a-coffee-with-milk-and-sugar" time="0.000115">
+        <testcase name="And there is water available" classname=";user-buys-a-coffee-with-milk-and-sugar" time="0.000089901">
         </testcase>
-        <testcase name="And the user has paid enough money" classname=";user-buys-a-coffee-with-milk-and-sugar" time="0.000100401">
+        <testcase name="And the user has paid enough money" classname=";user-buys-a-coffee-with-milk-and-sugar" time="0.0000775">
         </testcase>
         <testcase name="When the user selects a coffee with milk and sugar" classname=";user-buys-a-coffee-with-milk-and-sugar">
             <skipped message="">
@@ -364,6 +810,360 @@
             </skipped>
         </testcase>
         <testcase name="Then the coffee machine brews a coffee with milk and sugar" classname=";user-buys-a-coffee-with-milk-and-sugar">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";user-presses-the-cancelbutton-within-three-seconds-from-the-moment-the-machine-started-brewing" tests="8" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/selection_Successful_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";user-presses-the-cancelbutton-within-three-seconds-from-the-moment-the-machine-started-brewing" time="0.000079801">
+        </testcase>
+        <testcase name="And there is water available" classname=";user-presses-the-cancelbutton-within-three-seconds-from-the-moment-the-machine-started-brewing" time="0.0000914">
+        </testcase>
+        <testcase name="And the user has paid enough money" classname=";user-presses-the-cancelbutton-within-three-seconds-from-the-moment-the-machine-started-brewing" time="0.000077">
+        </testcase>
+        <testcase name="Given that the user has pressed startbutton" classname=";user-presses-the-cancelbutton-within-three-seconds-from-the-moment-the-machine-started-brewing">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When the user presses the cancelbutton" classname=";user-presses-the-cancelbutton-within-three-seconds-from-the-moment-the-machine-started-brewing">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And it has been less than three seconds since machine started brewing" classname=";user-presses-the-cancelbutton-within-three-seconds-from-the-moment-the-machine-started-brewing">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the machine stops brewing" classname=";user-presses-the-cancelbutton-within-three-seconds-from-the-moment-the-machine-started-brewing">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And goes back to the screen displayed before the user pressed start" classname=";user-presses-the-cancelbutton-within-three-seconds-from-the-moment-the-machine-started-brewing">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";user-buys-a-beverage-with-missing-ingredients" tests="6" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/selection_Unsuccessful_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";user-buys-a-beverage-with-missing-ingredients" time="0.000065">
+        </testcase>
+        <testcase name="Given that the user has selected kaffesockermjolk" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And there is not enough kaffe" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When the user presses the startbutton" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the machine does not brew" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And displays: &apos;Not enough coffee, refill&apos;" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";user-buys-a-beverage-with-missing-ingredients" tests="6" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/selection_Unsuccessful_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";user-buys-a-beverage-with-missing-ingredients" time="0.000368">
+        </testcase>
+        <testcase name="Given that the user has selected kaffesocker" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And there is not enough socker" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When the user presses the startbutton" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the machine does not brew" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And displays: &apos;Not enough sugar, refill&apos;" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";user-buys-a-beverage-with-missing-ingredients" tests="6" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/selection_Unsuccessful_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";user-buys-a-beverage-with-missing-ingredients" time="0.0000989">
+        </testcase>
+        <testcase name="Given that the user has selected kaffemjolk" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And there is not enough mjolk" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When the user presses the startbutton" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the machine does not brew" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And displays: &apos;Not enough milk, refill&apos;" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";user-buys-a-beverage-with-missing-ingredients" tests="6" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/selection_Unsuccessful_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";user-buys-a-beverage-with-missing-ingredients" time="0.000067501">
+        </testcase>
+        <testcase name="Given that the user has selected kaffe" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And there is not enough vatten" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When the user presses the startbutton" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the machine does not brew" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And displays: &apos;No water supply connected, call maintenance&apos;" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";user-buys-a-beverage-with-missing-ingredients" tests="6" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/selection_Unsuccessful_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";user-buys-a-beverage-with-missing-ingredients" time="0.0000632">
+        </testcase>
+        <testcase name="Given that the user has selected te" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And there is not enough cups" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When the user presses the startbutton" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the machine does not brew" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And displays: &apos;No more cups, refill&apos;" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";user-buys-a-beverage-with-missing-ingredients" tests="6" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/selection_Unsuccessful_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";user-buys-a-beverage-with-missing-ingredients" time="0.0000946">
+        </testcase>
+        <testcase name="Given that the user has selected choklad" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And there is not enough choklad" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When the user presses the startbutton" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the machine does not brew" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And displays: &apos;Not enough chocolate, refill&apos;" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";user-buys-a-beverage-with-missing-ingredients" tests="6" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/selection_Unsuccessful_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";user-buys-a-beverage-with-missing-ingredients" time="0.0000787">
+        </testcase>
+        <testcase name="Given that the user has selected latte" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And there is not enough mjolk" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When the user presses the startbutton" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the machine does not brew" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And displays: &apos;Not enough milk, refill&apos;" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";user-buys-a-beverage-with-missing-ingredients" tests="6" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/selection_Unsuccessful_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";user-buys-a-beverage-with-missing-ingredients" time="0.0000648">
+        </testcase>
+        <testcase name="Given that the user has selected kanna" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And there is not enough kaffe" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When the user presses the startbutton" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the machine does not brew" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And displays: &apos;Not enough coffee, refill&apos;" classname=";user-buys-a-beverage-with-missing-ingredients">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";the-user-tries-to-buy-a-beverage-when-the-catch-spillage-compartment-is-full" tests="6" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/selection_Unsuccessful_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";the-user-tries-to-buy-a-beverage-when-the-catch-spillage-compartment-is-full" time="0.000066401">
+        </testcase>
+        <testcase name="Given that the catch-spill compartment is full" classname=";the-user-tries-to-buy-a-beverage-when-the-catch-spillage-compartment-is-full">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the user has selected a beverage" classname=";the-user-tries-to-buy-a-beverage-when-the-catch-spillage-compartment-is-full">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When the user presses the startbutton" classname=";the-user-tries-to-buy-a-beverage-when-the-catch-spillage-compartment-is-full">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then no beverage gets brewed" classname=";the-user-tries-to-buy-a-beverage-when-the-catch-spillage-compartment-is-full">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And an error message is displayed: &apos;Empty the spillage compartment&apos;" classname=";the-user-tries-to-buy-a-beverage-when-the-catch-spillage-compartment-is-full">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";user-presses-the-cancelbutton-after-three-seconds-from-the-moment-the-machine-started-brewing" tests="6" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/selection_Unsuccessful_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";user-presses-the-cancelbutton-after-three-seconds-from-the-moment-the-machine-started-brewing" time="0.000071401">
+        </testcase>
+        <testcase name="Given that the user has pressed startbutton" classname=";user-presses-the-cancelbutton-after-three-seconds-from-the-moment-the-machine-started-brewing">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When the user presses the cancelbutton" classname=";user-presses-the-cancelbutton-after-three-seconds-from-the-moment-the-machine-started-brewing">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And it has been more than three seconds since machine started brewing" classname=";user-presses-the-cancelbutton-after-three-seconds-from-the-moment-the-machine-started-brewing">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the machine continues brewing" classname=";user-presses-the-cancelbutton-after-three-seconds-from-the-moment-the-machine-started-brewing">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the user gets the beverage" classname=";user-presses-the-cancelbutton-after-three-seconds-from-the-moment-the-machine-started-brewing">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";the-user-unplugs-the-water-during-the-brewing-process" tests="5" failures="0" skipped="4">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/selection_Unsuccessful_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";the-user-unplugs-the-water-during-the-brewing-process" time="0.0000879">
+        </testcase>
+        <testcase name="Given that the user has selected a beverage" classname=";the-user-unplugs-the-water-during-the-brewing-process">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And has pressed the startbutton" classname=";the-user-unplugs-the-water-during-the-brewing-process">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When the user disconnects the water" classname=";the-user-unplugs-the-water-during-the-brewing-process">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then an error appears" classname=";the-user-unplugs-the-water-during-the-brewing-process">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";user-presses-two-buttons-at-the-same-time" tests="4" failures="0" skipped="2">
+        <properties>
+            <property name="URI" value="C:/Users/jitma/Desktop/Coffee-machine/features/selection_Unsuccessful_Interactions.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";user-presses-two-buttons-at-the-same-time" time="0.000067401">
+        </testcase>
+        <testcase name="Given that the machine is plugged in" classname=";user-presses-two-buttons-at-the-same-time" time="0.000087301">
+        </testcase>
+        <testcase name="When the user presses two buttons at the same time" classname=";user-presses-two-buttons-at-the-same-time">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then only one of them should light up (Prio list: coffee&gt;latte&gt;chocolate&gt;te&gt;milk&gt;sugar&gt;kanna)" classname=";user-presses-two-buttons-at-the-same-time">
             <skipped message="">
             </skipped>
         </testcase>

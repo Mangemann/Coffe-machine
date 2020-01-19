@@ -232,29 +232,97 @@ class MyMachine{
 
     selectSugar() {
 
+        if (this.sockerButtonPressed) {
+            this.sockerButtonPressed = false
+        }
+        else {
+            this.sockerButtonPressed = true
+        }
+        
+
     }
 
     selectMilk() {
+
+        if (this.mjolkButtonPressed) {
+            this.mjolkButtonPressed = false
+        }
+        else {
+            this.mjolkButtonPressed = true
+        }
 
     }
 
     selectKanna() {
 
+        if (this.kannaButtonPressed) {
+            this.kannaButtonPressed = false
+        }
+        else {
+            this.kannaButtonPressed = true
+            this.kaffeButtonPressed = true
+            this.sockerButtonPressed = false
+            this.mjolkButtonPressed = false
+            this.teButtonPressed = false
+            this.chokladButtonPressed = false
+            this.latteButtonPressed = false
+        }
+
     }
 
     selectCoffee() {
+
+        if (this.kaffeButtonPressed) {
+            this.kaffeButtonPressed = false
+        }
+        else {
+            this.kaffeButtonPressed = true
+            this.latteButtonPressed = false
+            this.teButtonPressed = false
+            this.chokladButtonPressed = false
+        }
 
     }
 
     selectLatte() {
 
+        if (this.latteButtonPressed) {
+            this.latteButtonPressed = false
+        }
+        else {
+            this.kaffeButtonPressed = false
+            this.latteButtonPressed = true
+            this.teButtonPressed = false
+            this.chokladButtonPressed = false
+        }
+
     }
 
     selectTe() {
 
+        if (this.teButtonPressed) {
+            this.teButtonPressed = false
+        }
+        else {
+            this.kaffeButtonPressed = false
+            this.latteButtonPressed = false
+            this.teButtonPressed = true
+            this.chokladButtonPressed = false
+        }
+
     }
 
     selectChocolate() {
+
+        if (this.chokladButtonPressed) {
+            this.chokladButtonPressed = false
+        }
+        else {
+            this.kaffeButtonPressed = false
+            this.latteButtonPressed = false
+            this.teButtonPressed = false
+            this.chokladButtonPressed = true
+        }
 
     }
 

@@ -46,4 +46,11 @@ When the user selects a coffee with milk and sugar
 And presses the startbutton
 Then the coffee machine brews a coffee with milk and sugar
 
+    Scenario: User presses the cancelbutton within three seconds from the moment the machine started brewing
+        Given that the user has pressed startbutton
+        When the user presses the cancelbutton
+        And it has been less than three seconds since machine started brewing
+        Then the machine stops brewing
+        And goes back to the screen displayed before the user pressed start
+
 

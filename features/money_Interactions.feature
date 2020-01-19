@@ -66,3 +66,4 @@ Feature:
         When the user presses the cancelbutton
         Then the user gets no change back
         And no money is deducted from the card
+
